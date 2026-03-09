@@ -38,13 +38,7 @@ gunicorn.log
 access.log
 error.log
 
-# Docker
-Dockerfile
-docker-compose.yml
-.dockerignore
-*.pid
-*.seed
-*.pid.lock
+
 
 # Database
 *.db
