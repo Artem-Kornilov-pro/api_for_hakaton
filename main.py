@@ -43,8 +43,8 @@ app.include_router(cities_router, prefix="/api/cities")
 app.include_router(books_router, prefix="/api/books")
 
 
-"""
+
 if __name__ == "__main__": 
     # Запуск приложения
     uvicorn.run(app, host="0.0.0.0", port=8085)
-"""
+

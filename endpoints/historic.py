@@ -163,6 +163,136 @@ rulers = {
         "facts": ["Последний российский император", "Отрекся от престола в 1917 году", "Расстрелян с семьей в 1918 году"],
         "img_url": "https://avatars.mds.yandex.net/get-entity_search/2295215/1247693461/S600xU_2x",
         "important_event": "Февральская революция и отречение от престола"
+    },
+    "11": {
+        "name": "Владимир Ильич Ленин (Ульянов)",
+        "years_rule": "1917-1924",
+        "dynasty": "Советские лидеры",
+        "facts": [
+            "Основатель Советского государства", 
+            "Руководитель Октябрьской революции 1917 года", 
+            "Создатель Коммунистической партии и Коминтерна",
+            "Инициатор политики 'военного коммунизма' и НЭПа"
+        ],
+        "img_url": "https://avatars.mds.yandex.net/i?id=e1a5a0d96767e39342edb108f8cb104f819b5fc4-4379638-images-thumbs&n=13",
+        "important_event": "Октябрьская революция и создание СССР"
+    },
+    "12": {
+        "name": "Иосиф Виссарионович Сталин (Джугашвили)",
+        "years_rule": "1924-1953",
+        "dynasty": "Советские лидеры",
+        "facts": [
+            "Руководитель СССР в годы индустриализации и коллективизации", 
+            "Верховный главнокомандующий в Великой Отечественной войне", 
+            "Один из лидеров антигитлеровской коалиции",
+            "Инициатор создания атомной бомбы в СССР"
+        ],
+        "img_url": "https://avatars.mds.yandex.net/i?id=7e7eac2fcf8ff745914abe0e3e39c546f86f190a-4888009-images-thumbs&n=13",
+        "important_event": "Победа в Великой Отечественной войне и превращение СССР в сверхдержаву"
+    },
+    "13": {
+        "name": "Никита Сергеевич Хрущёв",
+        "years_rule": "1953-1964",
+        "dynasty": "Советские лидеры",
+        "facts": [
+            "Инициатор 'оттепели' и разоблачения культа личности Сталина", 
+            "Запустил первый искусственный спутник Земли", 
+            "Начал массовое строительство жилья ('хрущёвки')",
+            "Выступал в ООН с известным 'кузькиной матерью'"
+        ],
+        "img_url": "https://gbousosh8.minobr63.ru/wordpress/wp-content/uploads/Хрущев.jpg",
+        "important_event": "Начало освоения космоса и хрущёвская оттепель"
+    },
+    "14": {
+        "name": "Леонид Ильич Брежнев",
+        "years_rule": "1964-1982",
+        "dynasty": "Советские лидеры",
+        "facts": [
+            "Период его правления называют 'эпохой застоя'", 
+            "При нём была принята Конституция 1977 года", 
+            "Активно развивал космическую программу и ВПК",
+            "Любил охоту и автомобили"
+        ],
+        "img_url": "https://avatars.mds.yandex.net/i?id=52b1b23097cd9fe3a1484c96e573ab12ea7b0f3d-17508662-images-thumbs&n=13",
+        "important_event": "Эпоха развитого социализма и достижение военного паритета с США"
+    },
+    "15": {
+        "name": "Михаил Сергеевич Горбачёв",
+        "years_rule": "1985-1991",
+        "dynasty": "Советские лидеры",
+        "facts": [
+            "Инициатор перестройки и гласности", 
+            "Лауреат Нобелевской премии мира", 
+            "Последний Генеральный секретарь ЦК КПСС",
+            "При нём произошёл распад СССР"
+        ],
+        "img_url": "https://avatars.mds.yandex.net/i?id=22aa58ad0b2da5e2dd078c27b2cfef3b621f9aab-5333360-images-thumbs&n=13",
+        "important_event": "Перестройка и окончание холодной войны"
+    },
+    "16": {
+        "name": "Борис Николаевич Ельцин",
+        "years_rule": "1991-1999",
+        "dynasty": "Президенты РФ",
+        "facts": [
+            "Первый президент Российской Федерации", 
+            "Инициатор рыночных реформ и приватизации", 
+            "Автор Конституции 1993 года",
+            "Известен фразой 'Я устал, я ухожу'"
+        ],
+        "img_url": "https://avatars.mds.yandex.net/i?id=d0bbe359a0b2c8c14447490a028dfc4bd82e35ab-5877852-images-thumbs&n=13",
+        "important_event": "Становление новой России и переход к рыночной экономике"
+    },
+    "17": {
+        "name": "Владимир Владимирович Путин",
+        "years_rule": "2000-2008, 2012-наст. время",
+        "dynasty": "Президенты РФ",
+        "facts": [
+            "Второй и четвёртый президент России", 
+            "Самый долго правящий руководитель после Сталина", 
+            "Имеет чёрный пояс по дзюдо",
+            "Кандидат экономических наук"
+        ],
+        "img_url": "https://cdn.ananasposter.ru/image/cache/catalog/poster/pos24/11/84065-1000x830.jpg",
+        "important_event": "Укрепление государственности и возвращение Крыма"
+    },
+    "18": {
+        "name": "Дмитрий Анатольевич Медведев",
+        "years_rule": "2008-2012",
+        "dynasty": "Президенты РФ",
+        "facts": [
+            "Третий президент России", 
+            "Инициатор модернизации и цифровизации", 
+            "Запустил проект 'Сколково'",
+            "Активный пользователь социальных сетей"
+        ],
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Дмитрий_Медведев_%2808-04-2022%29.jpg/960px-Дмитрий_Медведев_%2808-04-2022%29.jpg",
+        "important_event": "Президентский срок и программа модернизации"
+    },
+    "19": {
+        "name": "Алексей Михайлович Романов (Тишайший)",
+        "years_rule": "1645-1676",
+        "dynasty": "Романовы",
+        "facts": [
+            "Второй царь из династии Романовых", 
+            "При нём произошло воссоединение Украины с Россией", 
+            "Провёл церковную реформу патриарха Никона",
+            "Отец Петра I"
+        ],
+        "img_url": "https://cdn.monetnik.ru/storage/blog/d2pzz8a614/2024-12-2801.800.jpg",
+        "important_event": "Соборное уложение 1649 года и укрепление самодержавия"
+    },
+    "20": {
+        "name": "Анна Иоанновна",
+        "years_rule": "1730-1740",
+        "dynasty": "Романовы",
+        "facts": [
+            "Императрица всероссийская, племянница Петра I", 
+            "Известна своим фаворитом Бироном и 'бироновщиной'", 
+            "Любила стрельбу и шутов",
+            "При ней открыт первый кадетский корпус"
+        ],
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/1880293/1245057186/S600xU_2x",
+        "important_event": "Правление с опорой на немецких дворян"
     }
 }
 
@@ -249,15 +379,56 @@ async def get_stats():
     """
     Возвращает статистику по базе данных
     """
+    # Подсчёт правителей по династиям/эпохам
+    dynasties_count = {}
+    for ruler in rulers.values():
+        dynasty = ruler["dynasty"]
+        dynasties_count[dynasty] = dynasties_count.get(dynasty, 0) + 1
+    
+    # Самый старый и самый новый факт
+    facts_list = list(historic_facts.values())
+    oldest_fact = min(facts_list, key=lambda x: x["year"]) if facts_list else None
+    newest_fact = max(facts_list, key=lambda x: x["year"]) if facts_list else None
+    
+    # Самый старый и самый новый правитель (по началу правления)
+    rulers_list = list(rulers.values())
+    # Функция для извлечения года начала правления
+    def get_start_year(ruler):
+        try:
+            return int(ruler["years_rule"].split('-')[0])
+        except:
+            return 0
+    
+    oldest_ruler = min(rulers_list, key=get_start_year) if rulers_list else None
+    newest_ruler = max(rulers_list, key=get_start_year) if rulers_list else None
+    
     stats = {
         "total_facts": len(historic_facts),
         "total_rulers": len(rulers),
-        "facts_years": sorted(set(fact["year"] for fact in historic_facts.values())),
-        "dynasties": {
-            "ryurikovichi": len([r for r in rulers.values() if r["dynasty"] == "Рюриковичи"]),
-            "romanovy": len([r for r in rulers.values() if r["dynasty"] == "Романовы"])
+        "facts_years": {
+            "min": min(fact["year"] for fact in historic_facts.values()),
+            "max": max(fact["year"] for fact in historic_facts.values()),
+            "all": sorted(set(fact["year"] for fact in historic_facts.values()))
+        },
+        "rulers_by_dynasty": dynasties_count,
+        "oldest_fact": {
+            "title": oldest_fact["title"] if oldest_fact else None,
+            "year": oldest_fact["year"] if oldest_fact else None
+        },
+        "newest_fact": {
+            "title": newest_fact["title"] if newest_fact else None,
+            "year": newest_fact["year"] if newest_fact else None
+        },
+        "oldest_ruler": {
+            "name": oldest_ruler["name"] if oldest_ruler else None,
+            "start_year": get_start_year(oldest_ruler) if oldest_ruler else None
+        },
+        "newest_ruler": {
+            "name": newest_ruler["name"] if newest_ruler else None,
+            "start_year": get_start_year(newest_ruler) if newest_ruler else None
         }
     }
+    
     logger.info("Запрос статистики")
     return stats
 
