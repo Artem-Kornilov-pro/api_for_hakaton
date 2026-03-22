@@ -1,0 +1,39 @@
+[tool.ruff]
+# Максимальная длина строки
+line-length = 100
+
+# Целевая версия Python
+target-version = "py311"
+
+# Исключаемые директории (чтобы не сканировались индекс и среда)
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "env",
+    "__pycache__",
+    "node_modules",
+    ".mypy_cache",
+]
+
+# Разрешаем Ruff автоматически исправлять всё, что можно
+fix = true
+
+[tool.ruff.lint]
+# Включённые классы правил:
+# E - style (pycodestyle)
+# F - ошибки (pyflakes)
+# I - сортировка импортов (isort)
+# W - предупреждения
+select = ["E", "F", "I", "W"]
+
+# Разрешённые автофиксируемые классы
+fixable = ["ALL"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+docstring-code-format = true
+
+#ruff format .

@@ -17,7 +17,7 @@ authors = {
         "genre": "Поэзия, проза",
         "famous_works": ["Евгений Онегин", "Руслан и Людмила", "Капитанская дочка"],
         "bio": "Великий русский поэт, драматург и прозаик. Создатель современного русского литературного языка.",
-        "img_url": "https://avatars.mds.yandex.net/i?id=acf4d0e235c73846b73161fa85c87e5b_l-10756139-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=acf4d0e235c73846b73161fa85c87e5b_l-10756139-images-thumbs&n=13",
     },
     "2": {
         "name": "Лев Николаевич Толстой",
@@ -27,7 +27,7 @@ authors = {
         "genre": "Проза",
         "famous_works": ["Война и мир", "Анна Каренина", "Детство"],
         "bio": "Один из самых известных писателей и мыслителей в мире. Его романы считаются шедеврами мировой литературы.",
-        "img_url": "https://www.rusbibliophile.ru/netcat_files/multifile/1748/6923/Tolstoy_portret_3.jpg"
+        "img_url": "https://www.rusbibliophile.ru/netcat_files/multifile/1748/6923/Tolstoy_portret_3.jpg",
     },
     "3": {
         "name": "Астрид Линдгрен",
@@ -37,16 +37,20 @@ authors = {
         "genre": "Детская литература",
         "famous_works": ["Малыш и Карлсон", "Пеппи Длинныйчулок", "Эмиль из Лённеберги"],
         "bio": "Шведская писательница, автор всемирно известных книг для детей. Её произведения переведены на 100 языков.",
-        "img_url": "https://avatars.mds.yandex.net/get-entity_search/2265709/1238008229/S600xU_2x"
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/2265709/1238008229/S600xU_2x",
     },
     "4": {
         "name": "Джоан Роулинг",
         "birth_year": 1965,
         "country": "Великобритания",
         "genre": "Фэнтези",
-        "famous_works": ["Гарри Поттер и философский камень", "Гарри Поттер и тайная комната", "Гарри Поттер и узник Азкабана"],
+        "famous_works": [
+            "Гарри Поттер и философский камень",
+            "Гарри Поттер и тайная комната",
+            "Гарри Поттер и узник Азкабана",
+        ],
         "bio": "Британская писательница, создательница серии романов о Гарри Поттере. Книги переведены на 80 языков.",
-        "img_url": "https://avatars.mds.yandex.net/get-entity_search/10349888/1237572513/S600xU_2x"
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/10349888/1237572513/S600xU_2x",
     },
     "5": {
         "name": "Николай Носов",
@@ -56,7 +60,7 @@ authors = {
         "genre": "Детская литература",
         "famous_works": ["Приключения Незнайки", "Витя Малеев в школе и дома", "Фантазёры"],
         "bio": "Советский детский писатель. Его книги о Незнайке любимы многими поколениями детей.",
-        "img_url": "https://avatars.mds.yandex.net/get-entity_search/2005770/1244118082/SUx182_2x"
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/2005770/1244118082/SUx182_2x",
     },
     "6": {
         "name": "Ганс Христиан Андерсен",
@@ -66,7 +70,7 @@ authors = {
         "genre": "Сказки",
         "famous_works": ["Снежная королева", "Дюймовочка", "Русалочка"],
         "bio": "Датский писатель, автор всемирно известных сказок. Его произведения переведены на 125 языков.",
-        "img_url": "https://avatars.mds.yandex.net/get-entity_search/2057552/1228811324/SUx182_2x"
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/2057552/1228811324/SUx182_2x",
     },
     "7": {
         "name": "Эдуард Успенский",
@@ -74,9 +78,13 @@ authors = {
         "death_year": 2018,
         "country": "Россия",
         "genre": "Детская литература",
-        "famous_works": ["Крокодил Гена и его друзья", "Дядя Фёдор, пёс и кот", "Каникулы в Простоквашино"],
+        "famous_works": [
+            "Крокодил Гена и его друзья",
+            "Дядя Фёдор, пёс и кот",
+            "Каникулы в Простоквашино",
+        ],
         "bio": "Советский и российский детский писатель. Создал Чебурашку, кота Матроскина и других любимых персонажей.",
-        "img_url": "https://avatars.mds.yandex.net/get-entity_search/1727502/1246875400/SUx182_2x"
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/1727502/1246875400/SUx182_2x",
     },
     "8": {
         "name": "Александр Дюма",
@@ -86,7 +94,7 @@ authors = {
         "genre": "Приключения",
         "famous_works": ["Три мушкетёра", "Граф Монте-Кристо", "Королева Марго"],
         "bio": "Французский писатель, автор приключенческих романов. Его книги переведены на множество языков.",
-        "img_url": "https://avatars.mds.yandex.net/get-entity_search/10640679/1212332790/SUx182_2x"
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/10640679/1212332790/SUx182_2x",
     },
     "9": {
         "name": "Марк Твен",
@@ -94,9 +102,13 @@ authors = {
         "death_year": 1910,
         "country": "США",
         "genre": "Приключения",
-        "famous_works": ["Приключения Тома Сойера", "Приключения Гекльберри Финна", "Принц и нищий"],
+        "famous_works": [
+            "Приключения Тома Сойера",
+            "Приключения Гекльберри Финна",
+            "Принц и нищий",
+        ],
         "bio": "Американский писатель, журналист и общественный деятель. Его книги о Томе Сойере знают во всём мире.",
-        "img_url": "https://avatars.mds.yandex.net/get-entity_search/10919903/1244127350/SUx182_2x"
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/10919903/1244127350/SUx182_2x",
     },
     "10": {
         "name": "Самуил Маршак",
@@ -106,8 +118,8 @@ authors = {
         "genre": "Поэзия, переводы",
         "famous_works": ["Кошкин дом", "Двенадцать месяцев", "Багаж"],
         "bio": "Русский поэт, переводчик, драматург. Его стихи знает каждый ребёнок в нашей стране.",
-        "img_url": "https://avatars.mds.yandex.net/get-entity_search/2327175/1010035383/SUx182_2x"
-    }
+        "img_url": "https://avatars.mds.yandex.net/get-entity_search/2327175/1010035383/SUx182_2x",
+    },
 }
 
 # База данных книг
@@ -120,7 +132,7 @@ books = {
         "pages": 224,
         "description": "Роман о трагической любви и судьбе молодого дворянина. Книга, которую называют 'энциклопедией русской жизни'.",
         "main_characters": ["Евгений Онегин", "Татьяна Ларина", "Владимир Ленский"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=21ad9bc87b05936cbe7ea38ed85ca7fc48ba858e-12626686-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=21ad9bc87b05936cbe7ea38ed85ca7fc48ba858e-12626686-images-thumbs&n=13",
     },
     "2": {
         "title": "Война и мир",
@@ -130,7 +142,7 @@ books = {
         "pages": 1300,
         "description": "Огромное произведение о жизни русского общества в эпоху наполеоновских войн. Одна из самых длинных книг в мире.",
         "main_characters": ["Пьер Безухов", "Андрей Болконский", "Наташа Ростова"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=3dac0fcf4f0fb2e1f2cb5334b40f027d6b4dcaa7-5348499-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=3dac0fcf4f0fb2e1f2cb5334b40f027d6b4dcaa7-5348499-images-thumbs&n=13",
     },
     "3": {
         "title": "Малыш и Карлсон",
@@ -140,7 +152,7 @@ books = {
         "pages": 128,
         "description": "Весёлая история о дружбе мальчика Малыша и Карлсона - мужчины в самом расцвете сил с пропеллером на спине.",
         "main_characters": ["Малыш", "Карлсон", "Фрекен Бок"],
-        "img_url": "https://avatars.mds.yandex.net/get-mpic/16574462/2a000001993840f5f97acec182726fd714f6/orig"
+        "img_url": "https://avatars.mds.yandex.net/get-mpic/16574462/2a000001993840f5f97acec182726fd714f6/orig",
     },
     "4": {
         "title": "Гарри Поттер и философский камень",
@@ -150,7 +162,7 @@ books = {
         "pages": 320,
         "description": "Первая книга о мальчике, который выжил. Гарри узнаёт, что он волшебник, и поступает в Хогвартс.",
         "main_characters": ["Гарри Поттер", "Рон Уизли", "Гермиона Грейнджер"],
-        "img_url": "https://avatars.mds.yandex.net/get-mpic/5283728/2a00000193570525a97541f6f8d68158b683/orig"
+        "img_url": "https://avatars.mds.yandex.net/get-mpic/5283728/2a00000193570525a97541f6f8d68158b683/orig",
     },
     "5": {
         "title": "Приключения Незнайки",
@@ -160,7 +172,7 @@ books = {
         "pages": 160,
         "description": "История о малышах из Цветочного города. Незнайка постоянно попадает в забавные приключения.",
         "main_characters": ["Незнайка", "Знайка", "Пилюлькин"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=2810f6759d91fbcf188c0ec256883639e30e568a-4566567-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=2810f6759d91fbcf188c0ec256883639e30e568a-4566567-images-thumbs&n=13",
     },
     "6": {
         "title": "Снежная королева",
@@ -170,7 +182,7 @@ books = {
         "pages": 64,
         "description": "Сказка о девочке Герде, которая отправилась спасать своего друга Кая из плена Снежной королевы.",
         "main_characters": ["Герда", "Кай", "Снежная королева"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=6764e570d57f4ad7a6ed698533954667ec20e2c2-8220238-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=6764e570d57f4ad7a6ed698533954667ec20e2c2-8220238-images-thumbs&n=13",
     },
     "7": {
         "title": "Крокодил Гена и его друзья",
@@ -180,7 +192,7 @@ books = {
         "pages": 128,
         "description": "История о том, как крокодил Гена и Чебурашка строили Дом дружбы и помогали другим найти друзей.",
         "main_characters": ["Чебурашка", "Крокодил Гена", "Шапокляк"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=8cc44a5594d1ad16ed13b0ea5e5d2898742b1c2a-5485004-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=8cc44a5594d1ad16ed13b0ea5e5d2898742b1c2a-5485004-images-thumbs&n=13",
     },
     "8": {
         "title": "Три мушкетёра",
@@ -190,7 +202,7 @@ books = {
         "pages": 640,
         "description": "Роман о друзьях-мушкетёрах, которые сражаются за честь королевы Франции. Девиз: 'Один за всех и все за одного!'",
         "main_characters": ["Д'Артаньян", "Атос", "Портос", "Арамис"],
-        "img_url": "https://avatars.mds.yandex.net/get-mpic/1602935/2a0000019205378895dc2431e8771848560d/orig"
+        "img_url": "https://avatars.mds.yandex.net/get-mpic/1602935/2a0000019205378895dc2431e8771848560d/orig",
     },
     "9": {
         "title": "Приключения Тома Сойера",
@@ -200,7 +212,7 @@ books = {
         "pages": 288,
         "description": "Книга о проделках мальчика Тома, который постоянно ищет приключения и находит их.",
         "main_characters": ["Том Сойер", "Гекльберри Финн", "Бекки Тэтчер"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=5fdb85d63f29adde6283564b7aa833d99b220f89-8497538-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=5fdb85d63f29adde6283564b7aa833d99b220f89-8497538-images-thumbs&n=13",
     },
     "10": {
         "title": "Двенадцать месяцев",
@@ -210,7 +222,7 @@ books = {
         "pages": 96,
         "description": "Сказка о девочке, которая зимой пошла в лес за подснежниками и встретила все 12 месяцев сразу.",
         "main_characters": ["Падчерица", "Королева", "Братья-месяцы"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=27593f13377e88d4470226c8a865d5c72301b91a-10651281-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=27593f13377e88d4470226c8a865d5c72301b91a-10651281-images-thumbs&n=13",
     },
     "11": {
         "title": "Капитанская дочка",
@@ -220,7 +232,7 @@ books = {
         "pages": 224,
         "description": "История о любви и чести во время восстания Пугачёва. Книга о том, что честь нужно беречь смолоду.",
         "main_characters": ["Пётр Гринёв", "Маша Миронова", "Пугачёв"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=03640c5d909b4b6e6f28bd7c842cb257b29b501a-4012690-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=03640c5d909b4b6e6f28bd7c842cb257b29b501a-4012690-images-thumbs&n=13",
     },
     "12": {
         "title": "Дядя Фёдор, пёс и кот",
@@ -230,7 +242,7 @@ books = {
         "pages": 160,
         "description": "История о мальчике, который уехал жить в деревню с котом Матроскиным и псом Шариком.",
         "main_characters": ["Дядя Фёдор", "Кот Матроскин", "Пёс Шарик", "Печкин"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=2ab969e418f5d08c18be275667348fc773bafc99-12630334-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=2ab969e418f5d08c18be275667348fc773bafc99-12630334-images-thumbs&n=13",
     },
     "13": {
         "title": "Руслан и Людмила",
@@ -240,7 +252,7 @@ books = {
         "pages": 192,
         "description": "Знаменитая поэма о любви Руслана и Людмилы, которую похитил злой карлик Черномор. Пролог 'У лукоморья дуб зелёный' знает каждый ребёнок.",
         "main_characters": ["Руслан", "Людмила", "Черномор"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=d44ea0bf2da33e94e71b8f61ace3cdfb8293e73a-6301299-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=d44ea0bf2da33e94e71b8f61ace3cdfb8293e73a-6301299-images-thumbs&n=13",
     },
     "14": {
         "title": "Сказка о царе Салтане",
@@ -250,7 +262,7 @@ books = {
         "pages": 48,
         "description": "Сказка о царе Салтане, его сыне Гвидоне и прекрасной Царевне Лебеди. История о чудесах, которые происходят на острове Буяне.",
         "main_characters": ["Царь Салтан", "Князь Гвидон", "Царевна Лебедь"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=1f8f4e29ad6856726309904cdb685f8e8bdd6b7e-5331692-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=1f8f4e29ad6856726309904cdb685f8e8bdd6b7e-5331692-images-thumbs&n=13",
     },
     "15": {
         "title": "Анна Каренина",
@@ -260,7 +272,7 @@ books = {
         "pages": 864,
         "description": "Трагическая история любви замужней женщины Анны Карениной и блестящего офицера Вронского. Один из самых известных романов о любви.",
         "main_characters": ["Анна Каренина", "Алексей Вронский", "Константин Левин"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=478d2bf9a641270e5ecbe737e02e2d5da7bcb2ac-5343659-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=478d2bf9a641270e5ecbe737e02e2d5da7bcb2ac-5343659-images-thumbs&n=13",
     },
     "16": {
         "title": "Детство",
@@ -270,7 +282,7 @@ books = {
         "pages": 128,
         "description": "Первая часть автобиографической трилогии. Рассказ о жизни мальчика Николеньки, его переживаниях, первой любви и взрослении.",
         "main_characters": ["Николенька Иртеньев", "Отец", "Наталья Савишна"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=8823c8972b40520682a3e16b9ea96e24de8d7f2a-12439486-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=8823c8972b40520682a3e16b9ea96e24de8d7f2a-12439486-images-thumbs&n=13",
     },
     "17": {
         "title": "Пеппи Длинныйчулок",
@@ -280,7 +292,7 @@ books = {
         "pages": 160,
         "description": "История о самой сильной девочке в мире, которая живёт одна на вилле 'Курица' и не ходит в школу. Пеппи - лучшая в мире выдумщица!",
         "main_characters": ["Пеппи", "Томми", "Анника"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=6af79dda7b037879aaccecdc90e350cfb9cb5dc7-16294724-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=6af79dda7b037879aaccecdc90e350cfb9cb5dc7-16294724-images-thumbs&n=13",
     },
     "18": {
         "title": "Эмиль из Лённеберги",
@@ -290,7 +302,7 @@ books = {
         "pages": 144,
         "description": "Весёлая книга о проделках маленького мальчика Эмиля, который живёт на хуторе в Швеции. Каждый день с ним случаются смешные истории.",
         "main_characters": ["Эмиль", "Альма", "Лина"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=3c7a49ee12b09aedf73710d945c8bc282e9e6698-3727926-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=3c7a49ee12b09aedf73710d945c8bc282e9e6698-3727926-images-thumbs&n=13",
     },
     "19": {
         "title": "Гарри Поттер и тайная комната",
@@ -300,7 +312,7 @@ books = {
         "pages": 352,
         "description": "Вторая книга о Гарри Поттере. В школе открывается Тайная комната, и Гарри предстоит сразиться с василиском и наследником Слизерина.",
         "main_characters": ["Гарри Поттер", "Рон Уизли", "Гермиона Грейнджер"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=678523328748e79894f5d7de69aee24c987d3311-5362633-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=678523328748e79894f5d7de69aee24c987d3311-5362633-images-thumbs&n=13",
     },
     "20": {
         "title": "Гарри Поттер и узник Азкабана",
@@ -310,7 +322,7 @@ books = {
         "pages": 384,
         "description": "Третья книга о Гарри Поттере. Из тюрьмы Азкабан сбегает опасный преступник Сириус Блэк, и все думают, что он охотится на Гарри.",
         "main_characters": ["Гарри Поттер", "Сириус Блэк", "Римус Люпин"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=3de746d01eb54af54b3beb323631c5098001ad28-5520044-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=3de746d01eb54af54b3beb323631c5098001ad28-5520044-images-thumbs&n=13",
     },
     "21": {
         "title": "Незнайка в Солнечном городе",
@@ -320,7 +332,7 @@ books = {
         "pages": 176,
         "description": "Вторая книга о Незнайке. Получив волшебную палочку, Незнайка отправляется в Солнечный город, где с ним происходят удивительные приключения.",
         "main_characters": ["Незнайка", "Кнопочка", "Пёстренький"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=0f47206713ae5879d790ff34a6b31b8aa90953fd-10855339-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=0f47206713ae5879d790ff34a6b31b8aa90953fd-10855339-images-thumbs&n=13",
     },
     "22": {
         "title": "Витя Малеев в школе и дома",
@@ -330,7 +342,7 @@ books = {
         "pages": 192,
         "description": "История о школьных буднях двух друзей - Вити Малеева и Кости Шишкина. О том, как они боролись с двойками и исправлялись.",
         "main_characters": ["Витя Малеев", "Костя Шишкин", "Ольга Николаевна"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=2b74d99b7949175d0904951dfa7b22696eaf8a60-15439913-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=2b74d99b7949175d0904951dfa7b22696eaf8a60-15439913-images-thumbs&n=13",
     },
     "23": {
         "title": "Оле-Лукойе",
@@ -340,7 +352,7 @@ books = {
         "pages": 32,
         "description": "Сказка о волшебном гноме Оле-Лукойе, который приходит к детям по вечерам и рассказывает им удивительные сны, раскрывая над ними свой разноцветный зонтик.",
         "main_characters": ["Оле-Лукойе", "Яльмар"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=e69197523983c43aaa6a9d20f3ebd196a9eacbba-5075316-images-thumbs&n=13"
+        "img_url": "https://avatars.mds.yandex.net/i?id=e69197523983c43aaa6a9d20f3ebd196a9eacbba-5075316-images-thumbs&n=13",
     },
     "24": {
         "title": "Граф Монте-Кристо",
@@ -350,9 +362,10 @@ books = {
         "pages": 1280,
         "description": "История молодого моряка Эдмона Дантеса, который становится жертвой предательства и проводит 14 лет в замке Иф. Сбежав, он находит сокровища и возвращается как граф Монте-Кристо, чтобы восстановить справедливость.",
         "main_characters": ["Эдмон Дантес", "Фернан Мондего", "Мерседес"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=3b65b3aef78f40bc1559c743a456ba190854f251-4828150-images-thumbs&n=13"
-    }
+        "img_url": "https://avatars.mds.yandex.net/i?id=3b65b3aef78f40bc1559c743a456ba190854f251-4828150-images-thumbs&n=13",
+    },
 }
+
 
 # Вспомогательная функция
 def get_item_or_404(data_dict, item_id, item_name):
@@ -360,13 +373,16 @@ def get_item_or_404(data_dict, item_id, item_name):
         raise HTTPException(status_code=404, detail=f"{item_name} с ID {item_id} не найден")
     return data_dict[item_id]
 
+
 # ========== ЭНДПОИНТЫ ДЛЯ АВТОРОВ ==========
+
 
 @books_router.get("/all_authors")
 async def get_all_authors():
     """Возвращает всех авторов"""
     logger.info("Запрос всех авторов")
     return authors
+
 
 @books_router.get("/random_author")
 async def get_random_author():
@@ -375,10 +391,12 @@ async def get_random_author():
     logger.info(f"Случайный автор с ID: {author_id}")
     return authors[author_id]
 
+
 @books_router.get("/author/{author_id}")
 async def get_author_by_id(author_id: str):
     """Возвращает автора по ID"""
     return get_item_or_404(authors, author_id, "Автор")
+
 
 @books_router.get("/author_by_name/{name}")
 async def get_author_by_name(name: str):
@@ -389,6 +407,7 @@ async def get_author_by_name(name: str):
             return author
     raise HTTPException(status_code=404, detail=f"Автор '{name}' не найден")
 
+
 @books_router.get("/authors_by_country/{country}")
 async def get_authors_by_country(country: str):
     """Возвращает авторов из указанной страны"""
@@ -396,11 +415,12 @@ async def get_authors_by_country(country: str):
     for id, author in authors.items():
         if country.lower() in author["country"].lower():
             result[id] = author
-    
+
     if not result:
         raise HTTPException(status_code=404, detail=f"Авторы из страны '{country}' не найдены")
     logger.info(f"Запрос авторов из страны: {country}")
     return result
+
 
 @books_router.get("/authors_by_genre/{genre}")
 async def get_authors_by_genre(genre: str):
@@ -409,19 +429,22 @@ async def get_authors_by_genre(genre: str):
     for id, author in authors.items():
         if genre.lower() in author["genre"].lower():
             result[id] = author
-    
+
     if not result:
         raise HTTPException(status_code=404, detail=f"Авторы в жанре '{genre}' не найдены")
     logger.info(f"Запрос авторов в жанре: {genre}")
     return result
 
+
 # ========== ЭНДПОИНТЫ ДЛЯ КНИГ ==========
+
 
 @books_router.get("/all_books")
 async def get_all_books():
     """Возвращает все книги"""
     logger.info("Запрос всех книг")
     return books
+
 
 @books_router.get("/random_book")
 async def get_random_book():
@@ -430,10 +453,12 @@ async def get_random_book():
     logger.info(f"Случайная книга с ID: {book_id}")
     return books[book_id]
 
+
 @books_router.get("/book/{book_id}")
 async def get_book_by_id(book_id: str):
     """Возвращает книгу по ID"""
     return get_item_or_404(books, book_id, "Книга")
+
 
 @books_router.get("/book_by_title/{title}")
 async def get_book_by_title(title: str):
@@ -444,6 +469,7 @@ async def get_book_by_title(title: str):
             return book
     raise HTTPException(status_code=404, detail=f"Книга '{title}' не найдена")
 
+
 @books_router.get("/books_by_author/{author}")
 async def get_books_by_author(author: str):
     """Возвращает книги указанного автора"""
@@ -451,11 +477,12 @@ async def get_books_by_author(author: str):
     for id, book in books.items():
         if author.lower() in book["author"].lower():
             result[id] = book
-    
+
     if not result:
         raise HTTPException(status_code=404, detail=f"Книги автора '{author}' не найдены")
     logger.info(f"Запрос книг автора: {author}")
     return result
+
 
 @books_router.get("/books_by_genre/{genre}")
 async def get_books_by_genre(genre: str):
@@ -464,11 +491,12 @@ async def get_books_by_genre(genre: str):
     for id, book in books.items():
         if genre.lower() in book["genre"].lower():
             result[id] = book
-    
+
     if not result:
         raise HTTPException(status_code=404, detail=f"Книги в жанре '{genre}' не найдены")
     logger.info(f"Запрос книг в жанре: {genre}")
     return result
+
 
 @books_router.get("/books_by_year/{year}")
 async def get_books_by_year(year: int):
@@ -477,11 +505,12 @@ async def get_books_by_year(year: int):
     for id, book in books.items():
         if book["year"] == year:
             result[id] = book
-    
+
     if not result:
         raise HTTPException(status_code=404, detail=f"Книги {year} года не найдены")
     logger.info(f"Запрос книг {year} года")
     return result
+
 
 @books_router.get("/short_books")
 async def get_short_books(max_pages: int = 150):
@@ -490,41 +519,46 @@ async def get_short_books(max_pages: int = 150):
     for id, book in books.items():
         if book["pages"] <= max_pages:
             result[id] = book
-    
+
     if not result:
-        raise HTTPException(status_code=404, detail=f"Книги с количеством страниц до {max_pages} не найдены")
+        raise HTTPException(
+            status_code=404, detail=f"Книги с количеством страниц до {max_pages} не найдены"
+        )
     logger.info(f"Запрос книг до {max_pages} страниц")
     return result
 
+
 # ========== ПОИСК И СТАТИСТИКА ==========
+
 
 @books_router.get("/search_books")
 async def search_books(query: str):
     """Поиск по книгам и авторам"""
-    result = {
-        "authors": {},
-        "books": {}
-    }
-    
+    result = {"authors": {}, "books": {}}
+
     # Поиск в авторах
     for id, author in authors.items():
-        if (query.lower() in author["name"].lower() or 
-            any(query.lower() in work.lower() for work in author["famous_works"])):
+        if query.lower() in author["name"].lower() or any(
+            query.lower() in work.lower() for work in author["famous_works"]
+        ):
             result["authors"][id] = author
-    
+
     # Поиск в книгах
     for id, book in books.items():
-        if (query.lower() in book["title"].lower() or 
-            query.lower() in book["author"].lower() or
-            any(query.lower() in char.lower() for char in book["main_characters"])):
+        if (
+            query.lower() in book["title"].lower()
+            or query.lower() in book["author"].lower()
+            or any(query.lower() in char.lower() for char in book["main_characters"])
+        ):
             result["books"][id] = book
-    
+
     total = len(result["authors"]) + len(result["books"])
     if total == 0:
         raise HTTPException(status_code=404, detail=f"По запросу '{query}' ничего не найдено")
-    
+
     logger.info(f"Поиск '{query}' дал {total} результатов")
     return result
+
 
 @books_router.get("/books_stats")
 async def get_books_stats():
@@ -534,30 +568,32 @@ async def get_books_stats():
     for book in books.values():
         genre = book["genre"]
         genres[genre] = genres.get(genre, 0) + 1
-    
+
     most_popular_genre = max(genres, key=genres.get) if genres else "Нет данных"
-    
+
     # Самая длинная и короткая книга
     longest_book = max(books.values(), key=lambda x: x["pages"]) if books else None
     shortest_book = min(books.values(), key=lambda x: x["pages"]) if books else None
-    
+
     stats = {
         "total_authors": len(authors),
         "total_books": len(books),
-        "average_pages": sum(book["pages"] for book in books.values()) // len(books) if books else 0,
+        "average_pages": sum(book["pages"] for book in books.values()) // len(books)
+        if books
+        else 0,
         "oldest_book": min(books.values(), key=lambda x: x["year"]) if books else None,
         "newest_book": max(books.values(), key=lambda x: x["year"]) if books else None,
         "longest_book": longest_book["title"] if longest_book else None,
         "shortest_book": shortest_book["title"] if shortest_book else None,
         "most_popular_genre": most_popular_genre,
         "genres_count": genres,
-        "authors_by_country": {}
+        "authors_by_country": {},
     }
-    
+
     # Авторы по странам
     for author in authors.values():
         country = author["country"]
         stats["authors_by_country"][country] = stats["authors_by_country"].get(country, 0) + 1
-    
+
     logger.info("Запрос статистики по книгам")
     return stats
