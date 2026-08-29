@@ -453,6 +453,13 @@ async def get_all_facts():
     logger.info("Запрос всех исторических фактов")
     return historic_facts
 
+@historic_router.get("/titles_of_facts")
+async def get_all_titles_of_facts():
+    """
+    Возвращает названия всех исторических фактов
+    """
+    logger.info("Запрос заголовков всех историчнских фактов")
+    return [ fact["title"] for fact in historic_facts.values()]
 
 @historic_router.get("/facts/{fact_id}")
 async def get_fact_by_id(fact_id: str):
@@ -496,6 +503,13 @@ async def get_all_rulers():
     logger.info("Запрос всех правителей")
     return rulers
 
+@historic_router.get("/names_of_rulers")
+async def get_names_all_rullers():
+    """
+    Возвращает имена всех правителей
+    """
+    logger.info("Имён всех правителей")
+    return [ ruler["name"] for ruler in rulers.values()]
 
 @historic_router.get("/rulers/{ruler_id}")
 async def get_ruler_by_id(ruler_id: str):
