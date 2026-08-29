@@ -1,8 +1,7 @@
 from fastapi import APIRouter, HTTPException
-from datetime import datetime
 import logging
 import random
-from typing import Optional, List
+
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
