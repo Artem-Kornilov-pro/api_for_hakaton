@@ -383,6 +383,12 @@ async def get_all_authors():
     logger.info("Запрос всех авторов")
     return authors
 
+@books_router.get("/names_of_all_authors")
+async def names_of_all_authors():
+    """Возвращает имена всех авторов"""
+    logger.info("Запрос имён всех авторов")
+    return [ author["name"] for author in authors.values()]
+
 
 @books_router.get("/random_author")
 async def get_random_author():
@@ -444,6 +450,12 @@ async def get_all_books():
     """Возвращает все книги"""
     logger.info("Запрос всех книг")
     return books
+
+@books_router.get("/titles_of_all_books")
+async def get_titles_of_all_books():
+    """Возвращает названия всех книги"""
+    logger.info("Запрос названия всех книг")
+    return [ book["title"] for book in books.values()]
 
 
 @books_router.get("/random_book")
