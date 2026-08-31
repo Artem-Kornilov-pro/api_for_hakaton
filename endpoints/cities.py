@@ -768,6 +768,13 @@ async def get_all_countries():
     return countries
 
 
+@cities_router.get("/names_of_all_countries")
+async def get_names_of_all_countries():
+    """Возвращает названия всех стран"""
+    logger.info("Запрос названий всех стран")
+    return [country["name"] for country in countries.values()]
+
+
 @cities_router.get("/random_country")
 async def get_random_country():
     """Возвращает случайную страну"""
@@ -818,6 +825,13 @@ async def get_all_cities():
     return cities
 
 
+@cities_router.get("/names_of_all_cities")
+async def get_names_of_all_cities():
+    """Возвращает названия всех городов"""
+    logger.info("Запрос названий всех городов")
+    return [city["name"] for city in cities.values()]
+
+
 @cities_router.get("/random_city")
 async def get_random_city():
     """Возвращает случайный город"""
@@ -864,6 +878,13 @@ async def get_all_landmarks():
     """Возвращает все достопримечательности"""
     logger.info("Запрос всех достопримечательностей")
     return landmarks
+
+
+@cities_router.get("/names_of_all_landmarks")
+async def get_names_of_all_landmarks():
+    """Возвращает названия всех достопримечательностей"""
+    logger.info("Запрос названий всех достопримечательностей")
+    return [landmark["name"] for landmark in landmarks.values()]
 
 
 @cities_router.get("/random_landmark")
