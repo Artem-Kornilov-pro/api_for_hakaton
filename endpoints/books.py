@@ -1,6 +1,8 @@
-from fastapi import APIRouter, HTTPException
 import logging
 import random
+from typing import Any
+
+from fastapi import APIRouter, HTTPException
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
@@ -8,7 +10,7 @@ logger = logging.getLogger(__name__)
 books_router = APIRouter(tags=["books"])
 
 # База данных авторов
-authors = {
+authors: dict[str, dict[str, Any]] = {
     "1": {
         "name": "Александр Сергеевич Пушкин",
         "birth_year": 1799,
@@ -123,7 +125,7 @@ authors = {
 }
 
 # База данных книг
-books = {
+books: dict[str, dict[str, Any]] = {
     "1": {
         "title": "Евгений Онегин",
         "author": "Александр Сергеевич Пушкин",
@@ -546,7 +548,7 @@ async def get_short_books(max_pages: int = 150):
 @books_router.get("/search_books")
 async def search_books(query: str):
     """Поиск по книгам и авторам"""
-    result = {"authors": {}, "books": {}}
+    result: dict[str, dict[str, Any]] = {"authors": {}, "books": {}}
 
     # Поиск в авторах
     for id, author in authors.items():
