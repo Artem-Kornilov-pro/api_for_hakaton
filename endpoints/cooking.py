@@ -499,6 +499,15 @@ async def all_chef():
     return chefs
 
 
+@cooking_router.get("/names_of_all_chefs")
+async def get_names_of_all_chefs():
+    """
+    Возвращает имена всех шеф-поваров
+    """
+    logger.info("Запрос имён всех поваров")
+    return [chef["name"] for chef in chefs.values()]
+
+
 @cooking_router.get("/random_chef")
 async def random_chef():
     """
@@ -561,6 +570,15 @@ async def all_dishes():
     """
     logger.info("Запрос всех блюд")
     return dishes
+
+
+@cooking_router.get("/names_of_all_dishes")
+async def get_names_of_all_dishes():
+    """
+    Простой эндпоинт: названия всех блюд
+    """
+    logger.info("Запрос названий всех блюд")
+    return [dish["name"] for dish in dishes.values()]
 
 
 @cooking_router.get("/random_dish")

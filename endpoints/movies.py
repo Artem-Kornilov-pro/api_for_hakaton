@@ -340,6 +340,13 @@ async def get_all_movies():
     return movies
 
 
+@movies_router.get("/titles_of_all_movies")
+async def get_titles_of_all_movies():
+    """Возвращает названия всех фильмов"""
+    logger.info("Запрос названий всех фильмов")
+    return [movie["title"] for movie in movies.values()]
+
+
 @movies_router.get("/random_movie")
 async def get_random_movie():
     """Возвращает случайный фильм"""
@@ -396,6 +403,13 @@ async def get_all_directors():
     return directors
 
 
+@movies_router.get("/names_of_all_directors")
+async def get_names_of_all_directors():
+    """Возвращает имена всех режиссёров"""
+    logger.info("Запрос имён всех режиссёров")
+    return [director["name"] for director in directors.values()]
+
+
 @movies_router.get("/random_director")
 async def get_random_director():
     """Возвращает случайного режиссёра"""
@@ -428,6 +442,13 @@ async def get_all_actors():
     """Возвращает всех актёров"""
     logger.info("Запрос всех актёров")
     return actors
+
+
+@movies_router.get("/names_of_all_actors")
+async def get_names_of_all_actors():
+    """Возвращает имена всех актёров"""
+    logger.info("Запрос имён всех актёров")
+    return [actor["name"] for actor in actors.values()]
 
 
 @movies_router.get("/random_actor")
