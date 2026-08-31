@@ -1,7 +1,8 @@
-from fastapi import APIRouter, HTTPException
 import logging
 import random
-from typing import Dict, List, Optional
+from typing import Any
+
+from fastapi import APIRouter, HTTPException
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
@@ -9,7 +10,7 @@ logger = logging.getLogger(__name__)
 historic_router = APIRouter(tags=["historic"])
 
 # Расширенная база исторических фактов
-historic_facts = {
+historic_facts: dict[str, dict[str, Any]] = {
     "1": {
         "year": 1200,
         "title": "BMW в Египте",
@@ -188,7 +189,7 @@ historic_facts = {
 }
 
 # Новая база данных о правителях
-rulers = {
+rulers: dict[str, dict[str, Any]] = {
     "1": {
         "name": "Рюрик",
         "years_rule": "862-879",
@@ -569,7 +570,7 @@ async def get_stats():
     def get_start_year(ruler):
         try:
             return int(ruler["years_rule"].split("-")[0])
-        except:
+        except (ValueError, KeyError, AttributeError):
             return 0
 
     oldest_ruler = min(rulers_list, key=get_start_year) if rulers_list else None
