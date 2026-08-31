@@ -1,6 +1,6 @@
-from locust import HttpUser, task, between
 import random
-import json
+
+from locust import HttpUser, between, task
 
 
 class ApiHakatonUser(HttpUser):

@@ -1,6 +1,8 @@
-from fastapi import APIRouter, HTTPException
 import logging
 import random
+from typing import Any
+
+from fastapi import APIRouter, HTTPException
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
@@ -8,7 +10,7 @@ logger = logging.getLogger(__name__)
 cities_router = APIRouter(tags=["cities"])
 
 # База данных стран
-countries = {
+countries: dict[str, dict[str, Any]] = {
     "1": {
         "name": "Россия",
         "capital": "Москва",
@@ -102,7 +104,7 @@ countries = {
 }
 
 # База данных городов
-cities = {
+cities: dict[str, dict[str, Any]] = {
     "1": {
         "name": "Москва",
         "country": "Россия",
@@ -347,7 +349,7 @@ cities = {
 
 
 # База данных достопримечательностей
-landmarks = {
+landmarks: dict[str, dict[str, Any]] = {
     "1": {
         "name": "Московский Кремль",
         "city": "Москва",
@@ -932,7 +934,7 @@ async def get_landmarks_by_type(type: str):
 @cities_router.get("/search")
 async def search_cities(query: str):
     """Поиск по всем категориям"""
-    result = {"countries": {}, "cities": {}, "landmarks": {}}
+    result: dict[str, dict[str, Any]] = {"countries": {}, "cities": {}, "landmarks": {}}
 
     # Поиск в странах
     for id, country in countries.items():

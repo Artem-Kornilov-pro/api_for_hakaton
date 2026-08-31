@@ -1,14 +1,12 @@
-from fastapi import FastAPI, Depends, HTTPException, status, Request
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse
-from fastapi.staticfiles import StaticFiles
-
 import uvicorn
-from endpoints.historic import historic_router
-from endpoints.cooking import cooking_router
-from endpoints.movies import movies_router
-from endpoints.cities import cities_router
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from endpoints.books import books_router
+from endpoints.cities import cities_router
+from endpoints.cooking import cooking_router
+from endpoints.historic import historic_router
+from endpoints.movies import movies_router
 
 # from endpoints.auth import auth
 # from endpoints.chat import chat_router

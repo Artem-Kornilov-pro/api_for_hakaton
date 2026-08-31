@@ -135,3 +135,5 @@ config.local.py
 *.backup
 *.old
 *.orig
+
+.claude

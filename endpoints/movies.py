@@ -1,7 +1,8 @@
-from fastapi import APIRouter, HTTPException
 import logging
 import random
-from typing import Optional
+from typing import Any
+
+from fastapi import APIRouter, HTTPException
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
@@ -9,7 +10,7 @@ logger = logging.getLogger(__name__)
 movies_router = APIRouter(tags=["movies"])
 
 # База данных фильмов
-movies = {
+movies: dict[str, dict[str, Any]] = {
     "1": {
         "title": "Иван Васильевич меняет профессию",
         "year": 1973,
@@ -209,7 +210,7 @@ movies = {
 
 
 # База данных режиссёров
-directors = {
+directors: dict[str, dict[str, Any]] = {
     "1": {
         "name": "Леонид Гайдай",
         "birth_year": 1923,
@@ -262,7 +263,7 @@ directors = {
 }
 
 # База данных актёров
-actors = {
+actors: dict[str, dict[str, Any]] = {
     "1": {
         "name": "Александр Демьяненко",
         "birth_year": 1937,
@@ -461,7 +462,7 @@ async def search_all(query: str):
     """
     Поиск по всем категориям (фильмы, режиссёры, актёры)
     """
-    result = {"movies": {}, "directors": {}, "actors": {}}
+    result: dict[str, dict[str, Any]] = {"movies": {}, "directors": {}, "actors": {}}
 
     # Поиск в фильмах
     for id, movie in movies.items():

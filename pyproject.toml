@@ -3,7 +3,7 @@
 line-length = 100
 
 # Целевая версия Python
-target-version = "py311"
+target-version = "py314"
 
 # Исключаемые директории (чтобы не сканировались индекс и среда)
 exclude = [
