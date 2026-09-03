@@ -43,7 +43,7 @@ chefs: dict[str, dict[str, Any]] = {
         "specialization": "Европейская кухня",
         "text": """Гордон Рамзи — британский шеф-повар, ресторатор и телеведущий. Обладатель 16 звезд Мишлен. Известен своим вспыльчивым характером на телешоу и исключительным профессионализмом в кулинарии.
 Родился в Шотландии. Изучал кулинарию под руководством знаменитых шеф-поваров в Лондоне и Париже. Владеет сетью ресторанов по всему миру. Написал множество кулинарных книг. Стал знаменитым благодаря телешоу «Адская кухня», «Кошмары на кухне» и «МастерШеф».""",
-        "img_url": "https://avatars.mds.yandex.net/i?id=8c774e92636ffceca1756dc47179de0d8c7856d4-4499319-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Gordon_Ramsay_colour_Allan_Warren.jpg/330px-Gordon_Ramsay_colour_Allan_Warren.jpg",
         "restaurants": ["Restaurant Gordon Ramsay", "Bread Street Kitchen"],
         "tv_shows": ["Hell's Kitchen", "MasterChef", "Kitchen Nightmares"],
     },
@@ -393,7 +393,7 @@ dishes: dict[str, dict[str, Any]] = {
         "ingredients": ["мука", "яйца", "свинина", "говядина", "лук", "соль", "перец"],
         "calories": 275,
         "cooking_time_minutes": 45,
-        "img_url": "https://avatars.mds.yandex.net/i?id=4b10394e44987a7a072eaa5f495fafe19429add2-3674583-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pelmeni_Russian.jpg/330px-Pelmeni_Russian.jpg",
     },
     "4": {
         "name": "Блины",
@@ -423,7 +423,7 @@ dishes: dict[str, dict[str, Any]] = {
         "ingredients": ["рыба", "картофель", "морковь", "лук", "лавровый лист", "перец", "зелень"],
         "calories": 70,
         "cooking_time_minutes": 60,
-        "img_url": "https://avatars.mds.yandex.net/i?id=8e3bf5fdafab061a0eab45da1cf56da0bc9da52b-12540153-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%D0%A3%D1%85%D0%B0_%D0%B8%D0%B7_%D0%BE%D1%81%D0%B5%D1%82%D1%80%D0%B0_01.jpg/330px-%D0%A3%D1%85%D0%B0_%D0%B8%D0%B7_%D0%BE%D1%81%D0%B5%D1%82%D1%80%D0%B0_01.jpg",
     },
     "7": {
         "name": "Бефстроганов",
@@ -433,7 +433,7 @@ dishes: dict[str, dict[str, Any]] = {
         "ingredients": ["говядина", "лук", "сметана", "мука", "томатная паста", "грибы", "масло"],
         "calories": 220,
         "cooking_time_minutes": 50,
-        "img_url": "https://avatars.mds.yandex.net/i?id=83e847576cc95407498d3f648c77492a6fa10c9f-10576628-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%D0%91%D0%B5%D1%84%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%B0%D0%BD%D0%BE%D0%B2_%28%D0%BC%D1%8F%D1%81%D0%BD%D0%BE%D0%B5_%D0%B1%D0%BB%D1%8E%D0%B4%D0%BE%29.jpg/330px-%D0%91%D0%B5%D1%84%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%B0%D0%BD%D0%BE%D0%B2_%28%D0%BC%D1%8F%D1%81%D0%BD%D0%BE%D0%B5_%D0%B1%D0%BB%D1%8E%D0%B4%D0%BE%29.jpg",
     },
     "8": {
         "name": "Котлета по-киевски",
@@ -470,7 +470,7 @@ dishes: dict[str, dict[str, Any]] = {
         "ingredients": ["хлеб ржаной", "сахар", "дрожжи", "вода", "изюм"],
         "calories": 40,
         "cooking_time_minutes": 2880,
-        "img_url": "https://avatars.mds.yandex.net/i?id=d8296790addbe75a7c8ce2f0f84a839672b2ba6f-17806471-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Mint_bread_kvas.jpg/330px-Mint_bread_kvas.jpg",
     },
     "11": {
         "name": "Пицца Маргарита",
@@ -487,7 +487,7 @@ dishes: dict[str, dict[str, Any]] = {
         ],
         "calories": 250,
         "cooking_time_minutes": 20,
-        "img_url": "https://avatars.mds.yandex.net/i?id=abb43a4bcbcef3ddb50f9cf842ac46d2dff77af6-5193708-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/330px-Pizza_Margherita_stu_spivack.jpg",
     },
     "12": {
         "name": "Лазанья",
@@ -540,7 +540,7 @@ dishes: dict[str, dict[str, Any]] = {
         ],
         "calories": 380,
         "cooking_time_minutes": 40,
-        "img_url": "https://avatars.mds.yandex.net/i?id=98d96e5e711ce455bb1345c316a7580197931da4-12481555-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Classic_Italian_Tiramisu-3_%2829989504485%29.jpg/330px-Classic_Italian_Tiramisu-3_%2829989504485%29.jpg",
     },
     "15": {
         "name": "Джелато",
@@ -577,7 +577,7 @@ dishes: dict[str, dict[str, Any]] = {
         ],
         "calories": 180,
         "cooking_time_minutes": 60,
-        "img_url": "https://avatars.mds.yandex.net/i?id=8ebd6c7e1737c7bc49a6efb099b1cdfa611424d8-5410274-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Soupe_%C3%A0_l%27oignon_1.jpg/330px-Soupe_%C3%A0_l%27oignon_1.jpg",
     },
     "18": {
         "name": "Киш Лорен",

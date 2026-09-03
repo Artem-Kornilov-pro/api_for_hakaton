@@ -18,7 +18,7 @@ countries: dict[str, dict[str, Any]] = {
         "population": 68000000,
         "area": 551695,
         "fact": "Франция - самая посещаемая страна в мире, ежегодно её посещают около 90 миллионов туристов",
-        "img_url": "https://avatars.mds.yandex.net/i?id=ed496755957249f46a29ca443b56092562daa99d-5332070-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langru-330px-Flag_of_France.svg.png",
     },
     "3": {
         "name": "Египет",
@@ -27,7 +27,7 @@ countries: dict[str, dict[str, Any]] = {
         "population": 104000000,
         "area": 1001450,
         "fact": "В Египте находится одно из семи чудес света - пирамиды Гизы",
-        "img_url": "https://avatars.mds.yandex.net/i?id=872cb8a0df4aeabfdfe0c7ee2babe028b36b4227-12377907-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/langru-330px-Flag_of_Egypt.svg.png",
     },
     "4": {
         "name": "Италия",
@@ -337,7 +337,7 @@ cities: dict[str, dict[str, Any]] = {
         "population": 13000000,
         "founded": 1147,
         "fact": "Московский Кремль - самая большая средневековая крепость в Европе",
-        "img_url": "https://avatars.mds.yandex.net/i?id=ea80b565999ace59a7d72fa70411025faa5af05c-7553437-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Saint_Basil%27s_Cathedral_and_the_Red_Square.jpg/330px-Saint_Basil%27s_Cathedral_and_the_Red_Square.jpg",
     },
     "2": {
         "name": "Париж",
@@ -353,7 +353,7 @@ cities: dict[str, dict[str, Any]] = {
         "population": 20000000,
         "founded": 969,
         "fact": "Каир называют 'городом тысячи минаретов' из-за множества мечетей",
-        "img_url": "https://avatars.mds.yandex.net/i?id=d35e042929163dd09fbc2cfe2b8a7098649e314d-8325116-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Cairo_Opera_House%2C_Al_Hurriyah_Park_and_the_Nile_river_%2814797782354%29.jpg/330px-Cairo_Opera_House%2C_Al_Hurriyah_Park_and_the_Nile_river_%2814797782354%29.jpg",
     },
     "4": {
         "name": "Рим",
@@ -393,7 +393,7 @@ cities: dict[str, dict[str, Any]] = {
         "population": 6748000,
         "founded": 1565,
         "fact": "Статуя Христа-Искупителя в Рио была выбрана одним из новых семи чудес света",
-        "img_url": "https://resize.tripster.ru/WWwBite5GXIyJPls23JOUjgCY-s=/fit-in/1080x1440/filters:no_upscale()/https://cdn.tripster.ru/photos/ae30d47d-e13d-4ba6-883f-88d5b7edd21e.jpg",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Montagem_RJ.jpg/330px-Montagem_RJ.jpg",
     },
     "9": {
         "name": "Сидней",
@@ -449,7 +449,7 @@ cities: dict[str, dict[str, Any]] = {
         "population": 520000,
         "founded": 43,
         "fact": "Мировая столица гастрономии. Здесь родились братья Люмьер - создатели кинематографа.",
-        "img_url": "https://avatars.mds.yandex.net/i?id=e7b4812bcdbcad0c3a2331398bb61c49005fa2a3-5232129-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Lyon-part-dieu-2023.jpg/330px-Lyon-part-dieu-2023.jpg",
     },
     "16": {
         "name": "Александрия",
@@ -481,7 +481,7 @@ cities: dict[str, dict[str, Any]] = {
         "population": 382000,
         "founded": 59,
         "fact": "Колыбель эпохи Возрождения. Здесь творили Леонардо да Винчи, Микеланджело и Данте.",
-        "img_url": "https://avatars.mds.yandex.net/i?id=931e79f9879377fc13f778308cb506ccc1447f14-5576459-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Collage_Firenze1.jpg/330px-Collage_Firenze1.jpg",
     },
     "20": {
         "name": "Неаполь",
@@ -497,7 +497,7 @@ cities: dict[str, dict[str, Any]] = {
         "population": 3800000,
         "founded": 1781,
         "fact": "Мировая столица развлечений. Здесь находится Голливуд и снимается большинство фильмов.",
-        "img_url": "https://avatars.mds.yandex.net/i?id=524875c29bbddb577df6d841ca53717a6b740f8e-4328379-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Hollywood_sign_%288485145044%29.jpg/330px-Hollywood_sign_%288485145044%29.jpg",
     },
     "22": {
         "name": "Чикаго",
@@ -818,7 +818,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Амфитеатр",
         "year": 80,
         "fact": "Колизей вмещал до 50000 зрителей и имел 80 входов",
-        "img_url": "https://avatars.mds.yandex.net/i?id=314d3b8caf8b48d8645ce27adc45bfc196e53e69-4055578-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/330px-Colosseo_2020.jpg",
     },
     "5": {
         "name": "Статуя Свободы",
@@ -836,7 +836,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Стена",
         "year": -700,
         "fact": "Стена длиной более 21000 км, её строили более 2000 лет",
-        "img_url": "https://avatars.mds.yandex.net/i?id=ac63de90484dc2306dab1ecb684e364d245eacc9-11270328-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
     },
     "7": {
         "name": "Тадж-Махал",
@@ -899,7 +899,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Музей",
         "year": 1764,
         "fact": "Эрмитаж - один из крупнейших музеев мира. Чтобы осмотреть все экспонаты, потратив на каждый по минуте, понадобится 11 лет",
-        "img_url": "https://avatars.mds.yandex.net/i?id=673760c6c2186a2244983180b9ecdc8baf2033fd-8497195-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Hermitage_logo.svg/langru-330px-Hermitage_logo.svg.png",
     },
     "14": {
         "name": "Петропавловская крепость",
@@ -917,7 +917,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Собор",
         "year": 1858,
         "fact": "На строительство собора ушло 40 лет, а его колонны весят по 114 тонн каждая",
-        "img_url": "https://culture.ru/_next/image?url=https%3A%2F%2Fwww.culture.ru%2Fstorage%2Fimages%2Fa08b8a52-6c53-543c-8fad-bfad83fe7ccb%2Fc_fill%2Cg_center%2F20210323_142649.jpg&w=1024&q=75",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Saint_Isaac%27s_Cathedral_in_SPB.jpeg/330px-Saint_Isaac%27s_Cathedral_in_SPB.jpeg",
     },
     # Казань (3 достопримечательности)
     "16": {
@@ -1053,7 +1053,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Район",
         "year": 1910,
         "fact": "Знаменитая надпись HOLLYWOOD первоначально была HOLLYWOODLAND и рекламировала новый жилой комплекс",
-        "img_url": "https://avatars.mds.yandex.net/i?id=8f0cf11d4a64b3af6cfe7612a8b9f31d241c550b-10157623-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Map_of_Hollywood_district%2C_Los_Angeles%2C_California.png/330px-Map_of_Hollywood_district%2C_Los_Angeles%2C_California.png",
     },
     # Чикаго (США)
     "30": {
@@ -1063,7 +1063,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Небоскрёб",
         "year": 1973,
         "fact": "Стеклянные балконы на 103 этаже выступают на 1.2 метра из здания на высоте 412 метров",
-        "img_url": "https://avatars.mds.yandex.net/i?id=bdafb24efb99ac28a1151ae09df6b07c997ab691-12371687-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Willis_Tower_From_Lake.jpg/330px-Willis_Tower_From_Lake.jpg",
     },
     # Лас-Вегас (США)
     "31": {
@@ -1143,7 +1143,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Замок",
         "year": 1583,
         "fact": "Один из самых знаменитых замков Японии. Его главная башня украшена золотом и сияет на солнце",
-        "img_url": "https://avatars.mds.yandex.net/i?id=9e4b9ea23907702ee8e7241e80556ec7a82c8c74-7000115-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Osaka_Castle_02bs3200.jpg/330px-Osaka_Castle_02bs3200.jpg",
     },
     # Дополнительные для уже существующих городов (чтобы было по 3 в крупных)
     "39": {
@@ -1162,7 +1162,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Собор",
         "year": 1561,
         "fact": "Собор состоит из 9 церквей на одном фундаменте. По легенде, Ивану Грозному так понравился собор, что он приказал ослепить архитектора",
-        "img_url": "https://avatars.mds.yandex.net/i?id=7f76b25201a9974fbe982827bbbca2c707f05459-5283550-images-thumbs&n=13",
+        "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Saint_Basil%27s_Cathedral_in_Moscow.jpg/330px-Saint_Basil%27s_Cathedral_in_Moscow.jpg",
     },
     "41": {
         "name": "Версаль",
@@ -1180,7 +1180,7 @@ landmarks: dict[str, dict[str, Any]] = {
         "type": "Государство",
         "year": 1929,
         "fact": "Самое маленькое государство в мире (0.44 км²). Здесь находится собор Святого Петра и Сикстинская капелла",
-        "img_url": "https://avatars.mds.yandex.net/i?id=a368e9cbb51668ef5e9b7bde308e01897a5b8f40-5233398-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/langru-330px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png",
     },
     "43": {
         "name": "Бранденбургские ворота",

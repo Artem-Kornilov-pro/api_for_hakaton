@@ -10,7 +10,7 @@ movies: dict[str, dict[str, Any]] = {
         "description": "Инженер Тимофеев изобретает машину времени и отправляет своего управдома в эпоху Ивана Грозного. Тем временем царь попадает в современную Москву.",
         "rating": 8.8,
         "actors": ["Александр Демьяненко", "Юрий Яковлев", "Леонид Куравлёв", "Наталья Селезнёва"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=24cb16997abc785b2b3d5be5865ab70a7cf0f84d-9229279-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/ru/thumb/c/c4/%D0%98%D0%B2%D0%B0%D0%BD_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87_%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D1%82_%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D1%8E_%28%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80%29.jpg/330px-%D0%98%D0%B2%D0%B0%D0%BD_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87_%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D1%82_%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D1%8E_%28%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80%29.jpg",
     },
     "2": {
         "title": "Брат",
@@ -40,7 +40,7 @@ movies: dict[str, dict[str, Any]] = {
         "description": "История трех подруг, приехавших покорять Москву. Главная героиня через 20 лет становится директором комбината и встречает свою любовь.",
         "rating": 8.3,
         "actors": ["Вера Алентова", "Ирина Муравьёва", "Алексей Баталов", "Раиса Рязанова"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=2a0000019ccd97e042f23db2b5f479fdd446-1544156-fast-images&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/ru/thumb/0/0c/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_%D1%81%D0%BB%D0%B5%D0%B7%D0%B0%D0%BC_%D0%BD%D0%B5_%D0%B2%D0%B5%D1%80%D0%B8%D1%82.jpg/330px-%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_%D1%81%D0%BB%D0%B5%D0%B7%D0%B0%D0%BC_%D0%BD%D0%B5_%D0%B2%D0%B5%D1%80%D0%B8%D1%82.jpg",
     },
     "5": {
         "title": "Кавказская пленница",
@@ -145,7 +145,7 @@ movies: dict[str, dict[str, Any]] = {
         "description": "История победы сборной СССР по баскетболу над США в финале Олимпиады-72. Самый кассовый российский фильм.",
         "rating": 8.0,
         "actors": ["Владимир Машков", "Андрей Смоляков", "Иван Колесников", "Кирилл Зайцев"],
-        "img_url": "https://upload.wikimedia.org/wikipedia/ru/thumb/b/b1/Движение_вверх_%282017%29.jpg/424px-Движение_вверх_%282017%29.jpg?20180828091739",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/ru/thumb/b/b1/%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2%D0%B2%D0%B5%D1%80%D1%85_%282017%29.jpg/330px-%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2%D0%B2%D0%B5%D1%80%D1%85_%282017%29.jpg",
     },
     "14": {
         "title": "Т-34",
@@ -730,7 +730,7 @@ actors: dict[str, dict[str, Any]] = {
             "Ипполит в 'Иронии судьбы'",
         ],
         "bio": "Юрий Васильевич Яковлев — советский и российский актёр театра и кино. Народный артист СССР. Снимался у Рязанова и Гайдая, создал множество ярких образов.",
-        "img_url": "https://avatars.mds.yandex.net/i?id=8f19aca03cd9c37c69ef5292a964319ced75075f-10340180-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Yury_Yakovlev_%28cropped%29.jpg/330px-Yury_Yakovlev_%28cropped%29.jpg",
     },
     "3": {
         "name": "Сергей Бодров мл.",
