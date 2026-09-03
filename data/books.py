@@ -386,7 +386,7 @@ books: dict[str, dict[str, Any]] = {
         "pages": 224,
         "description": "Роман о трагической любви и судьбе молодого дворянина. Книга, которую называют 'энциклопедией русской жизни'.",
         "main_characters": ["Евгений Онегин", "Татьяна Ларина", "Владимир Ленский"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=21ad9bc87b05936cbe7ea38ed85ca7fc48ba858e-12626686-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Eugene_Onegin_book_edition.jpg/330px-Eugene_Onegin_book_edition.jpg",
     },
     "2": {
         "title": "Война и мир",
@@ -396,7 +396,7 @@ books: dict[str, dict[str, Any]] = {
         "pages": 1300,
         "description": "Огромное произведение о жизни русского общества в эпоху наполеоновских войн. Одна из самых длинных книг в мире.",
         "main_characters": ["Пьер Безухов", "Андрей Болконский", "Наташа Ростова"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=3dac0fcf4f0fb2e1f2cb5334b40f027d6b4dcaa7-5348499-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/T25-011.jpg/330px-T25-011.jpg",
     },
     "3": {
         "title": "Малыш и Карлсон",
@@ -466,7 +466,7 @@ books: dict[str, dict[str, Any]] = {
         "pages": 288,
         "description": "Книга о проделках мальчика Тома, который постоянно ищет приключения и находит их.",
         "main_characters": ["Том Сойер", "Гекльберри Финн", "Бекки Тэтчер"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=5fdb85d63f29adde6283564b7aa833d99b220f89-8497538-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/330px-Tom_Sawyer_1876_frontispiece.jpg",
     },
     "10": {
         "title": "Двенадцать месяцев",
@@ -496,7 +496,7 @@ books: dict[str, dict[str, Any]] = {
         "pages": 160,
         "description": "История о мальчике, который уехал жить в деревню с котом Матроскиным и псом Шариком.",
         "main_characters": ["Дядя Фёдор", "Кот Матроскин", "Пёс Шарик", "Печкин"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=2ab969e418f5d08c18be275667348fc773bafc99-12630334-images-thumbs&n=13",
+        "img_url": "https://upload.wikimedia.org/wikipedia/ru/e/e9/%D0%94%D1%8F%D0%B4%D1%8F_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%2C_%D0%BF%D1%91%D1%81_%D0%B8_%D0%BA%D0%BE%D1%82.jpg",
     },
     "13": {
         "title": "Руслан и Людмила",
@@ -516,7 +516,7 @@ books: dict[str, dict[str, Any]] = {
         "pages": 48,
         "description": "Сказка о царе Салтане, его сыне Гвидоне и прекрасной Царевне Лебеди. История о чудесах, которые происходят на острове Буяне.",
         "main_characters": ["Царь Салтан", "Князь Гвидон", "Царевна Лебедь"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=1f8f4e29ad6856726309904cdb685f8e8bdd6b7e-5331692-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/V.N._Kurdyumov_-_Tale_of_Tsar_Saltan_%281913%29_00_cover.jpg/330px-V.N._Kurdyumov_-_Tale_of_Tsar_Saltan_%281913%29_00_cover.jpg",
     },
     "15": {
         "title": "Анна Каренина",
@@ -576,7 +576,7 @@ books: dict[str, dict[str, Any]] = {
         "pages": 384,
         "description": "Третья книга о Гарри Поттере. Из тюрьмы Азкабан сбегает опасный преступник Сириус Блэк, и все думают, что он охотится на Гарри.",
         "main_characters": ["Гарри Поттер", "Сириус Блэк", "Римус Люпин"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=3de746d01eb54af54b3beb323631c5098001ad28-5520044-images-thumbs&n=13",
+        "img_url": "https://upload.wikimedia.org/wikipedia/ru/6/6a/%D0%93%D0%B0%D1%80%D1%80%D0%B8_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80_3.jpg",
     },
     "21": {
         "title": "Незнайка в Солнечном городе",
@@ -606,7 +606,7 @@ books: dict[str, dict[str, Any]] = {
         "pages": 32,
         "description": "Сказка о волшебном гноме Оле-Лукойе, который приходит к детям по вечерам и рассказывает им удивительные сны, раскрывая над ними свой разноцветный зонтик.",
         "main_characters": ["Оле-Лукойе", "Яльмар"],
-        "img_url": "https://avatars.mds.yandex.net/i?id=e69197523983c43aaa6a9d20f3ebd196a9eacbba-5075316-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Vilhelm_Pedersen%2C_OLE_LUK%C3%98JE%2C_ubt.jpeg/330px-Vilhelm_Pedersen%2C_OLE_LUK%C3%98JE%2C_ubt.jpeg",
     },
     "24": {
         "title": "Граф Монте-Кристо",

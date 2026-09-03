@@ -63,7 +63,7 @@ historic_facts: dict[str, dict[str, Any]] = {
         "title": "Первый полет в космос",
         "fact": "Гагарин стал первым человеком в космосе",
         "description": "Юрий Гагарин на корабле 'Восток-1' совершил первый в истории полет в космическое пространство.",
-        "img_url": "https://rgantd.ru/upload/resize_cache/iblock/3e9/500_500_1/3lucha9bdp06bjvu71rbizts562vj7hs.jpg",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Yuri_Gagarin_with_awards.jpg/330px-Yuri_Gagarin_with_awards.jpg",
     },
     "10": {
         "year": 1945,
@@ -509,7 +509,7 @@ rulers: dict[str, dict[str, Any]] = {
             "Один из лидеров антигитлеровской коалиции",
             "Инициатор создания атомной бомбы в СССР",
         ],
-        "img_url": "https://avatars.mds.yandex.net/i?id=7e7eac2fcf8ff745914abe0e3e39c546f86f190a-4888009-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Joseph_Stalin_official_portrait.jpg/330px-Joseph_Stalin_official_portrait.jpg",
         "important_event": "Победа в Великой Отечественной войне и превращение СССР в сверхдержаву",
     },
     "13": {
@@ -535,7 +535,7 @@ rulers: dict[str, dict[str, Any]] = {
             "Активно развивал космическую программу и ВПК",
             "Любил охоту и автомобили",
         ],
-        "img_url": "https://avatars.mds.yandex.net/i?id=52b1b23097cd9fe3a1484c96e573ab12ea7b0f3d-17508662-images-thumbs&n=13",
+        "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Leonid_Brezjnev%2C_leider_van_de_Sovjet-Unie%2C_Bestanddeelnr_925-6564.jpg/330px-Leonid_Brezjnev%2C_leider_van_de_Sovjet-Unie%2C_Bestanddeelnr_925-6564.jpg",
         "important_event": "Эпоха развитого социализма и достижение военного паритета с США",
     },
     "15": {

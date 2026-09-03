@@ -220,7 +220,11 @@ async def search_cities(query: str):
 
     # Поиск в странах
     for id, country in countries.items():
-        if query.lower() in country["name"].lower() or query.lower() in country["capital"].lower():
+        if (
+            query.lower() in country["name"].lower()
+            or query.lower() in country["capital"].lower()
+            or query.lower() in country["continent"].lower()
+        ):
             result["countries"][id] = country
 
     # Поиск в городах
