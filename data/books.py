@@ -35,6 +35,7 @@ authors: dict[str, dict[str, Any]] = {
     "4": {
         "name": "Джоан Роулинг",
         "birth_year": 1965,
+        "death_year": None,
         "country": "Великобритания",
         "genre": "Фэнтези",
         "famous_works": [

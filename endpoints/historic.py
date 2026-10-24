@@ -132,15 +132,20 @@ async def get_stats():
     # Самый старый и самый новый правитель (по началу правления)
     rulers_list = list(rulers.values())
 
-    # Функция для извлечения года начала правления
-    def get_start_year(ruler):
+    # Функция для извлечения года начала правления.
+    # "336-323 до н.э." → -336, "2000-2008, 2012-наст. время" → 2000 (или 2012, если last_term)
+    def get_start_year(ruler, last_term=False):
         try:
-            return int(ruler["years_rule"].split("-")[0])
+            terms = ruler["years_rule"].split(",")
+            year = int(terms[-1 if last_term else 0].strip().split("-")[0])
         except (ValueError, KeyError, AttributeError):
             return 0
+        return -year if "до н.э." in ruler["years_rule"] else year
 
     oldest_ruler = min(rulers_list, key=get_start_year) if rulers_list else None
-    newest_ruler = max(rulers_list, key=get_start_year) if rulers_list else None
+    newest_ruler = (
+        max(rulers_list, key=lambda r: get_start_year(r, last_term=True)) if rulers_list else None
+    )
 
     stats = {
         "total_facts": len(historic_facts),
@@ -165,7 +170,7 @@ async def get_stats():
         },
         "newest_ruler": {
             "name": newest_ruler["name"] if newest_ruler else None,
-            "start_year": get_start_year(newest_ruler) if newest_ruler else None,
+            "start_year": get_start_year(newest_ruler, last_term=True) if newest_ruler else None,
         },
     }
 

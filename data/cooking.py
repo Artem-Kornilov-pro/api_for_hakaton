@@ -319,7 +319,7 @@ chefs: dict[str, dict[str, Any]] = {
         "text": """Аркадий Новиков — один из самых известных российских рестораторов, основатель холдинга Novikov Group, объединяющего десятки ресторанов в Москве и за рубежом.
 Считается одним из создателей современной ресторанной культуры в России.""",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B8%D0%B9_%D0%9D%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2_%D0%BF%D0%BE%D1%81%D0%BE%D0%BB_WS_Kazan_2019_%28cropped%29.jpg/330px-%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B8%D0%B9_%D0%9D%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2_%D0%BF%D0%BE%D1%81%D0%BE%D0%BB_WS_Kazan_2019_%28cropped%29.jpg",
-        "restaurants": ["Белый Кролик", "Сыр"],
+        "restaurants": ["Vogue Café", "Novikov Restaurant & Bar"],
         "tv_shows": [],
     },
     "30": {

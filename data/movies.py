@@ -502,6 +502,7 @@ directors: dict[str, dict[str, Any]] = {
     "5": {
         "name": "Никита Михалков",
         "birth_year": 1945,
+        "death_year": None,
         "best_movies": [
             "Свой среди чужих",
             "Раба любви",
@@ -530,6 +531,7 @@ directors: dict[str, dict[str, Any]] = {
     "8": {
         "name": "Тимур Бекмамбетов",
         "birth_year": 1961,
+        "death_year": None,
         "best_movies": ["Ночной дозор", "Дневной дозор", "Особо опасен"],
         "bio": "Тимур Нуруахитович Бекмамбетов — российский кинорежиссёр и продюсер. Автор первого российского блокбастера «Ночной дозор», открывшего российское кино для массового зрителя.",
         "img_url": "",
@@ -537,6 +539,7 @@ directors: dict[str, dict[str, Any]] = {
     "9": {
         "name": "Фёдор Бондарчук",
         "birth_year": 1967,
+        "death_year": None,
         "best_movies": ["Девятая рота", "Сталинград", "Обитаемый остров"],
         "bio": "Фёдор Сергеевич Бондарчук — российский кинорежиссёр, продюсер и актёр, сын Сергея Бондарчука. Известен масштабными постановками военных драм.",
         "img_url": "",
@@ -544,6 +547,7 @@ directors: dict[str, dict[str, Any]] = {
     "10": {
         "name": "Николай Лебедев",
         "birth_year": 1966,
+        "death_year": None,
         "best_movies": ["Легенда №17", "Экипаж", "Звезда"],
         "bio": "Николай Игоревич Лебедев — российский кинорежиссёр и сценарист. Специализируется на спортивных драмах и приключенческом кино.",
         "img_url": "",
@@ -567,6 +571,7 @@ directors: dict[str, dict[str, Any]] = {
     "13": {
         "name": "Владимир Бортко",
         "birth_year": 1946,
+        "death_year": None,
         "best_movies": ["Собачье сердце", "Мастер и Маргарита", "Идиот"],
         "bio": "Владимир Владимирович Бортко — советский и российский кинорежиссёр, известный экранизациями классики: «Собачье сердце», «Мастер и Маргарита», «Идиот».",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%91%D0%BE%D1%80%D1%82%D0%BA%D0%BE_%282014-07-10%29_%28cropped%29.jpg/330px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%91%D0%BE%D1%80%D1%82%D0%BA%D0%BE_%282014-07-10%29_%28cropped%29.jpg",
@@ -582,6 +587,7 @@ directors: dict[str, dict[str, Any]] = {
     "15": {
         "name": "Карен Шахназаров",
         "birth_year": 1952,
+        "death_year": None,
         "best_movies": ["Курьер", "Город Зеро", "Белый тигр"],
         "bio": "Карен Георгиевич Шахназаров — российский кинорежиссёр и продюсер, многолетний руководитель киностудии «Мосфильм», автор культового фильма «Курьер».",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%D0%9A%D0%B0%D1%80%D0%B5%D0%BD_%D0%A8%D0%B0%D1%85%D0%BD%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%B2_%2816-04-2026%29_%28cropped%29.jpg/330px-%D0%9A%D0%B0%D1%80%D0%B5%D0%BD_%D0%A8%D0%B0%D1%85%D0%BD%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%B2_%2816-04-2026%29_%28cropped%29.jpg",
@@ -597,6 +603,7 @@ directors: dict[str, dict[str, Any]] = {
     "17": {
         "name": "Александр Котт",
         "birth_year": 1973,
+        "death_year": None,
         "best_movies": ["Брестская крепость", "Испытание", "Ярослав. Тысячу лет назад"],
         "bio": "Александр Александрович Котт — российский кинорежиссёр, известный военными и историческими драмами, в частности фильмом «Брестская крепость».",
         "img_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Alexander_Kott_3_November_2010.jpg",
@@ -604,6 +611,7 @@ directors: dict[str, dict[str, Any]] = {
     "18": {
         "name": "Борис Хлебников",
         "birth_year": 1972,
+        "death_year": None,
         "best_movies": ["Аритмия", "Долгая счастливая жизнь", "Коктебель"],
         "bio": "Борис Игоревич Хлебников — российский кинорежиссёр независимого кино, автор одной из лучших российских драм 2010-х — «Аритмия».",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Boris_Khlebnikov_2010_Moscow_%28cropped%29.jpg/330px-Boris_Khlebnikov_2010_Moscow_%28cropped%29.jpg",
@@ -611,6 +619,7 @@ directors: dict[str, dict[str, Any]] = {
     "19": {
         "name": "Андрей Звягинцев",
         "birth_year": 1964,
+        "death_year": None,
         "best_movies": ["Нелюбовь", "Левиафан", "Возвращение"],
         "bio": "Андрей Петрович Звягинцев — российский кинорежиссёр, самый титулованный современный российский режиссёр на международных фестивалях, дважды номинант на «Оскар».",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Andrey_Zvyagintsev_2026.png/330px-Andrey_Zvyagintsev_2026.png",
@@ -650,6 +659,7 @@ directors: dict[str, dict[str, Any]] = {
     "24": {
         "name": "Владимир Хотиненко",
         "birth_year": 1952,
+        "death_year": None,
         "best_movies": ["Мусульманин", "72 метра", "Поп"],
         "bio": "Владимир Иванович Хотиненко — российский кинорежиссёр, автор фильмов на исторические и духовные темы.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%A5%D0%BE%D1%82%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE_%282019-09-02%29_%28cropped%29.jpg/330px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%A5%D0%BE%D1%82%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE_%282019-09-02%29_%28cropped%29.jpg",
@@ -657,6 +667,7 @@ directors: dict[str, dict[str, Any]] = {
     "25": {
         "name": "Алексей Учитель",
         "birth_year": 1951,
+        "death_year": None,
         "best_movies": ["Матильда", "Прогулка", "Космос как предчувствие"],
         "bio": "Алексей Ефимович Учитель — российский кинорежиссёр и продюсер, автор резонансного исторического фильма «Матильда».",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9_%D0%A3%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_VK_Fest_2022_%282%29_%28cropped%29.jpg/330px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9_%D0%A3%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_VK_Fest_2022_%282%29_%28cropped%29.jpg",
@@ -664,6 +675,7 @@ directors: dict[str, dict[str, Any]] = {
     "26": {
         "name": "Валерий Тодоровский",
         "birth_year": 1962,
+        "death_year": None,
         "best_movies": ["Стиляги", "Оттепель", "Страна глухих"],
         "bio": "Валерий Петрович Тодоровский — российский кинорежиссёр и продюсер, автор музыкального фильма «Стиляги» и сериала «Оттепель».",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/TodorovskyVP.jpg/330px-TodorovskyVP.jpg",
@@ -671,6 +683,7 @@ directors: dict[str, dict[str, Any]] = {
     "27": {
         "name": "Павел Лунгин",
         "birth_year": 1949,
+        "death_year": None,
         "best_movies": ["Остров", "Такси-блюз", "Царь"],
         "bio": "Павел Семёнович Лунгин — российский кинорежиссёр, обладатель приза за режиссуру Каннского фестиваля, автор фильма «Остров».",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB_%D0%9B%D1%83%D0%BD%D0%B3%D0%B8%D0%BD_%2815-03-2026%29_%28cropped%29.jpg/330px-%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB_%D0%9B%D1%83%D0%BD%D0%B3%D0%B8%D0%BD_%2815-03-2026%29_%28cropped%29.jpg",
@@ -678,6 +691,7 @@ directors: dict[str, dict[str, Any]] = {
     "28": {
         "name": "Юрий Быков",
         "birth_year": 1981,
+        "death_year": None,
         "best_movies": ["Майор", "Дурак", "Завод"],
         "bio": "Юрий Анатольевич Быков — российский кинорежиссёр независимого кино, известный социальными драмами о коррупции и несправедливости.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Yuri_Bykov.jpg/330px-Yuri_Bykov.jpg",
@@ -685,6 +699,7 @@ directors: dict[str, dict[str, Any]] = {
     "29": {
         "name": "Кантемир Балагов",
         "birth_year": 1991,
+        "death_year": None,
         "best_movies": ["Дылда", "Теснота"],
         "bio": "Кантемир Николаевич Балагов — российский кинорежиссёр, самый молодой лауреат приза за режиссуру программы «Особый взгляд» Каннского фестиваля.",
         "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Kantemir_Balagov_at_the_2026_Cannes_Film_Festival_01_%28cropped%29.jpg/330px-Kantemir_Balagov_at_the_2026_Cannes_Film_Festival_01_%28cropped%29.jpg",
@@ -692,6 +707,7 @@ directors: dict[str, dict[str, Any]] = {
     "30": {
         "name": "Андрей Кончаловский",
         "birth_year": 1937,
+        "death_year": None,
         "best_movies": ["Дорогие товарищи!", "Рай", "Сибириада"],
         "bio": "Андрей Сергеевич Кончаловский — советский и российский кинорежиссёр, лауреат множества международных наград, брат Никиты Михалкова.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%9A%D0%BE%D0%BD%D1%87%D0%B0%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%282026-06-12%29.jpg/330px-%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%9A%D0%BE%D0%BD%D1%87%D0%B0%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%282026-06-12%29.jpg",
@@ -757,6 +773,7 @@ actors: dict[str, dict[str, Any]] = {
     "5": {
         "name": "Ирина Муравьёва",
         "birth_year": 1949,
+        "death_year": None,
         "famous_roles": [
             "Людмила в 'Москва слезам не верит'",
             "роли в фильмах 'Карнавал', 'Самая обаятельная и привлекательная'",
@@ -834,6 +851,7 @@ actors: dict[str, dict[str, Any]] = {
     "12": {
         "name": "Олег Меньшиков",
         "birth_year": 1960,
+        "death_year": None,
         "famous_roles": ["Костик в «Покровских воротах»", "роль в фильме «Утомлённые солнцем»"],
         "bio": "Олег Евгеньевич Меньшиков — российский актёр театра и кино, народный артист России, обладатель премии BAFTA.",
         "img_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Oleg_Menshikov_2018.jpg",
@@ -841,6 +859,7 @@ actors: dict[str, dict[str, Any]] = {
     "13": {
         "name": "Сергей Безруков",
         "birth_year": 1973,
+        "death_year": None,
         "famous_roles": ["Саша Белый в «Бригаде»", "Есенин в одноимённом сериале"],
         "bio": "Сергей Витальевич Безруков — российский актёр театра и кино, художественный руководитель Московского губернского театра.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%91%D0%B5%D0%B7%D1%80%D1%83%D0%BA%D0%BE%D0%B2_%282025-10-03%29_%28cropped%29.jpg/330px-%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%91%D0%B5%D0%B7%D1%80%D1%83%D0%BA%D0%BE%D0%B2_%282025-10-03%29_%28cropped%29.jpg",
@@ -848,6 +867,7 @@ actors: dict[str, dict[str, Any]] = {
     "14": {
         "name": "Константин Хабенский",
         "birth_year": 1972,
+        "death_year": None,
         "famous_roles": ["Антон Городецкий в «Ночном дозоре»", "роль в фильме «Собибор»"],
         "bio": "Константин Юрьевич Хабенский — российский актёр театра и кино, художественный руководитель МХТ имени Чехова.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A5%D0%B0%D0%B1%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9._17_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2023._%D0%A1%D0%9F%D0%B1.jpg/330px-%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A5%D0%B0%D0%B1%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9._17_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2023._%D0%A1%D0%9F%D0%B1.jpg",
@@ -855,6 +875,7 @@ actors: dict[str, dict[str, Any]] = {
     "15": {
         "name": "Евгений Миронов",
         "birth_year": 1966,
+        "death_year": None,
         "famous_roles": ["Роль в фильме «Идиот»", "роль в фильме «Время первых»"],
         "bio": "Евгений Витальевич Миронов — российский актёр театра и кино, художественный руководитель Театра Наций.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Yevgeny_Mironov%2C_2018.jpg/330px-Yevgeny_Mironov%2C_2018.jpg",
@@ -862,6 +883,7 @@ actors: dict[str, dict[str, Any]] = {
     "16": {
         "name": "Данила Козловский",
         "birth_year": 1985,
+        "death_year": None,
         "famous_roles": ["Роль в фильме «Легенда №17»", "Владимир в фильме «Викинг»"],
         "bio": "Данила Валерьевич Козловский — российский актёр, кинорежиссёр и продюсер, один из самых востребованных актёров своего поколения.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0_%D0%9A%D0%BE%D0%B7%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_2017_%281%29_%28cropped-J1%29.jpg/330px-%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0_%D0%9A%D0%BE%D0%B7%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_2017_%281%29_%28cropped-J1%29.jpg",
@@ -869,6 +891,7 @@ actors: dict[str, dict[str, Any]] = {
     "17": {
         "name": "Владимир Машков",
         "birth_year": 1963,
+        "death_year": None,
         "famous_roles": ["Роль в фильме «Вор»", "полковник Гуров в «Экипаже»"],
         "bio": "Владимир Львович Машков — российский актёр и кинорежиссёр, художественный руководитель театра «Табакерка».",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9C%D0%B0%D1%88%D0%BA%D0%BE%D0%B2_%2806-09-2024%29_-_08_%28cropped%29.jpg/330px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9C%D0%B0%D1%88%D0%BA%D0%BE%D0%B2_%2806-09-2024%29_-_08_%28cropped%29.jpg",
@@ -876,6 +899,7 @@ actors: dict[str, dict[str, Any]] = {
     "18": {
         "name": "Чулпан Хаматова",
         "birth_year": 1975,
+        "death_year": None,
         "famous_roles": ["Роль в фильме «Страна глухих»", "соучредитель фонда «Подари жизнь»"],
         "bio": "Чулпан Наилевна Хаматова — российская актриса театра и кино, известна также активной благотворительной деятельностью.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/%D0%A7%D1%83%D0%BB%D0%BF%D0%B0%D0%BD_%D0%A5%D0%B0%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0_%2814-12-2022%29_%28cropped%29.jpg/330px-%D0%A7%D1%83%D0%BB%D0%BF%D0%B0%D0%BD_%D0%A5%D0%B0%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0_%2814-12-2022%29_%28cropped%29.jpg",
@@ -883,6 +907,7 @@ actors: dict[str, dict[str, Any]] = {
     "19": {
         "name": "Марина Неёлова",
         "birth_year": 1947,
+        "death_year": None,
         "famous_roles": ["Роль в фильме «Осенний марафон»", "многолетняя актриса театра «Современник»"],
         "bio": "Марина Мстиславовна Неёлова — советская и российская актриса театра и кино, народная артистка СССР.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%9D%D0%B5%D1%91%D0%BB%D0%BE%D0%B2%D0%B0_%282026-06-12%29_-_02_%28cropped%29.jpg/330px-%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%9D%D0%B5%D1%91%D0%BB%D0%BE%D0%B2%D0%B0_%282026-06-12%29_-_02_%28cropped%29.jpg",
@@ -890,6 +915,7 @@ actors: dict[str, dict[str, Any]] = {
     "20": {
         "name": "Алла Демидова",
         "birth_year": 1936,
+        "death_year": None,
         "famous_roles": ["Роль в фильме «Шестое июля»", "ведущая актриса Театра на Таганке"],
         "bio": "Алла Сергеевна Демидова — советская и российская актриса театра и кино, народная артистка РСФСР.",
         "img_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Demidova%2C_Alla_-NF_20191207_fRF05.jpg/330px-Demidova%2C_Alla_-NF_20191207_fRF05.jpg",
@@ -969,6 +995,7 @@ actors: dict[str, dict[str, Any]] = {
     "30": {
         "name": "Татьяна Друбич",
         "birth_year": 1960,
+        "death_year": None,
         "famous_roles": ["Роль в фильме «Асса»", "роль в фильме «Анна Каренина»"],
         "bio": "Татьяна Люсьеновна Друбич — советская и российская актриса, снимавшаяся преимущественно в фильмах режиссёра Сергея Соловьёва.",
         "img_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Tatyana_Drubich_%28cropped%29.jpg",
