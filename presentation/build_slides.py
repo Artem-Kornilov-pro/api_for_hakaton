@@ -82,8 +82,7 @@ em { font-style: normal; color: var(--accent) }
 # ---- Дополнения для слайдов хакатона ----
 CSS_EXTRA = """
 .mono { font-family: 'JetBrains Mono', Menlo, monospace }
-.gnum { font-size: 64px; font-weight: 800; line-height: 1; background: var(--grad);
-        -webkit-background-clip: text; background-clip: text; color: transparent }
+.gnum { font-size: 64px; font-weight: 800; line-height: 1; color: var(--accent) }
 .flowbox { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center }
 .msg { font-family: 'JetBrains Mono', Menlo, monospace; font-size: 22px; font-weight: 700; background: var(--soft);
        color: var(--accent); border-radius: 16px; padding: 10px 16px; white-space: nowrap }
@@ -144,6 +143,19 @@ CSS_EXTRA = """
           background: var(--soft); border-radius: 999px; padding: 4px 10px }
 .addr { font-family: 'JetBrains Mono', Menlo, monospace; font-size: 38px; font-weight: 700; color: var(--accent);
         border-bottom: 4px dashed var(--accent); padding-bottom: 4px }
+
+/* Градиентная рамка карточек без двух слоёв фона: в PDF белый слой-градиент
+   печатался со щелями, сквозь которые просвечивала фиолетовая полоса */
+.t-shct .card { background: var(--grad) border-box; isolation: isolate }
+.t-shct .card::before { content: ""; position: absolute; inset: 0; background: #fff;
+  border-radius: calc(var(--radius) - 4px); z-index: -1 }
+
+/* В PDF размытая тень печатается жёсткими фиолетовыми плашками, которые наползают
+   друг на друга, — для печати тени отключаем, на экране они остаются */
+@media print {
+  .t-shct { --shadow: none }
+  .bub { box-shadow: none }
+}
 """
 
 LOGO = '<img class="logo" src="assets/logo_shct.png">'
