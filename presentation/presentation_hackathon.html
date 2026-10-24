@@ -1,0 +1,227 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><link rel="stylesheet" href="assets/fonts/fonts.css"><style>
+@page { size: 1440px 810px; margin: 0 }
+* { box-sizing: border-box; margin: 0; padding: 0 }
+body { font-family: var(--font), Arial, sans-serif; color: var(--ink); background: #fff }
+.slide { width: 1440px; height: 810px; position: relative; overflow: hidden; page-break-after: always;
+         background: var(--bg); padding: 0 72px }
+.logo { position: absolute; left: 64px; top: 38px; height: 56px; z-index: 5 }
+h1 { font-size: 92px; line-height: 1.04; font-weight: var(--hw); letter-spacing: -1px }
+h2 { font-size: 58px; line-height: 1.1; font-weight: var(--hw); position: absolute; left: 72px; top: 120px; z-index: 3 }
+em { font-style: normal; color: var(--accent) }
+.lead { font-size: 30px; line-height: 1.4; font-weight: 600 }
+.body { position: absolute; left: 72px; right: 72px; top: 215px; bottom: 50px }
+.row { display: flex; gap: 28px; height: 100% }
+.col { display: flex; flex-direction: column; gap: 22px }
+.card { background: var(--card); border: var(--cardborder); border-radius: var(--radius); padding: 28px 30px;
+        box-shadow: var(--shadow); flex: 1; position: relative }
+.card h3 { font-size: 30px; font-weight: 800; margin-bottom: 10px; line-height: 1.15 }
+.card p, .txt { font-size: 24px; line-height: 1.38; font-weight: 600; color: var(--text) }
+.big .card p { font-size: 28px } .big .card h3 { font-size: 32px } .big .card { align-self: flex-start; min-height: 400px }
+.sm p { font-size: 21px } .sm h3 { font-size: 26px; margin-bottom: 6px }
+.num { width: 64px; height: 64px; border-radius: 50%; background: var(--grad); color: #fff; font-weight: 800;
+       font-size: 32px; display: flex; align-items: center; justify-content: center; margin-bottom: 18px }
+.img { border-radius: 24px; display: block; box-shadow: var(--shadow) }
+.chip { display: inline-block; background: var(--soft); color: var(--accent); font-weight: 800; font-size: 22px;
+        padding: 6px 16px; border-radius: 999px }
+.cap { font-size: 22px; font-weight: 700; margin-top: 12px; text-align: center; line-height: 1.25 }
+.code { background: #17142b; color: #e9e6ff; border-radius: 28px; padding: 30px 36px; font-family: 'JetBrains Mono', Menlo, monospace;
+        font-size: 24px; line-height: 1.5; white-space: pre; box-shadow: var(--shadow) }
+.code .c { color: #8f8ab8 } .code .k { color: #ff9ad5 } .code .s { color: #9be29b } .code .n { color: #ffd479 }
+.arrow { font-size: 54px; font-weight: 800; color: var(--accent); align-self: center }
+.grad { background: var(--grad); color: #fff }
+.grad h2 { color: #fff } .grad em { color: #fff; text-decoration: underline; text-decoration-thickness: 6px }
+.grad .card { background: #fff; color: var(--ink) }
+.deco { position: absolute; z-index: 1 }
+.pagenum { position: absolute; right: 40px; bottom: 22px; font-weight: 800; font-size: 20px; color: var(--accent); opacity: .8 }
+.grad .pagenum { color: #fff }
+.tr td { padding: 12px 18px; font-size: 24px; font-weight: 600; border-bottom: 2px solid var(--soft) }
+
+.t-shct { --font: 'Open Sans'; --ink: #0b0b1c; --text: #33334d; --accent: #7b2ff2; --soft: #f1e8ff; --bg: #fff; --card: #fff;
+  --grad: linear-gradient(135deg, #e02cf3 0%, #7b3df5 50%, #2740ee 100%); --hw: 800; --radius: 34px;
+  --cardborder: 4px solid transparent; --shadow: 0 10px 30px rgba(90,40,200,.18) }
+.t-shct .card { background: linear-gradient(#fff, #fff) padding-box, var(--grad) border-box }
+.t-shct .grad .card { background: linear-gradient(#fff, #fff) padding-box, linear-gradient(135deg,#fff,#fff) border-box }
+.t-shct .sphere { border-radius: 50%; background: linear-gradient(135deg, #e02cf3, #3a3df5) }
+
+.mono { font-family: 'JetBrains Mono', Menlo, monospace }
+.gnum { font-size: 64px; font-weight: 800; line-height: 1; background: var(--grad);
+        -webkit-background-clip: text; background-clip: text; color: transparent }
+.flowbox { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center }
+.msg { font-family: 'JetBrains Mono', Menlo, monospace; font-size: 22px; font-weight: 700; background: var(--soft);
+       color: var(--accent); border-radius: 16px; padding: 10px 16px; white-space: nowrap }
+.url { display: flex; align-items: flex-start; justify-content: center; gap: 6px }
+.url .seg { display: flex; flex-direction: column; align-items: center; gap: 14px }
+.url .part { font-family: 'JetBrains Mono', Menlo, monospace; font-size: 37px; font-weight: 700; padding: 14px 18px;
+             border-radius: 18px; white-space: nowrap }
+.url .lbl { font-size: 22px; font-weight: 800; color: var(--text) }
+.p1 { background: #fde7ff; color: #b416c8 } .p2 { background: #efe6ff; color: #7b2ff2 }
+.p3 { background: #e6e9ff; color: #3446e8 } .p4 { background: #e3f6ec; color: #1f8a4c }
+.tg { width: 330px; height: 545px; border-radius: 44px; border: 10px solid #15132a; overflow: hidden; position: relative;
+      background: linear-gradient(160deg, #d9ecd2, #b8d8c4); box-shadow: var(--shadow); flex: none }
+.tg .bar { background: #fff; padding: 16px 18px; display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 19px }
+.tg .ava { width: 40px; height: 40px; border-radius: 50%; background: var(--grad); color: #fff; display: flex;
+           align-items: center; justify-content: center; font-size: 18px }
+.tg .bar small { display: block; font-weight: 600; font-size: 14px; color: #7a8a99 }
+.tg .chat { padding: 16px 14px; display: flex; flex-direction: column; gap: 12px }
+.bub { max-width: 86%; border-radius: 18px; padding: 10px 14px; font-size: 17px; line-height: 1.35; font-weight: 600;
+       box-shadow: 0 1px 2px rgba(0,0,0,.12) }
+.bub.me { align-self: flex-end; background: #e1fec6; font-family: 'JetBrains Mono', Menlo, monospace; color: #2a7bd6 }
+.bub.bot { align-self: flex-start; background: #fff; padding: 6px; max-width: 92% }
+.bub.bot img { width: 100%; border-radius: 13px; display: block }
+.bub.bot div { padding: 8px 8px 4px }
+.win { border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); background: #ececec; flex: none;
+       border: 1px solid #d4d4dc }
+.win .tbar { height: 38px; display: flex; align-items: center; gap: 8px; padding: 0 14px; background: #e3e3e8;
+             font-size: 16px; font-weight: 700; color: #555 }
+.win .dot { width: 13px; height: 13px; border-radius: 50% }
+.win img { display: block }
+.hl { background: rgba(255, 212, 121, .16); border-radius: 6px; outline: 2px solid rgba(255, 212, 121, .55) }
+.plus, .minus { display: flex; gap: 14px; font-size: 24px; font-weight: 600; line-height: 1.35; color: var(--text) }
+.plus b, .minus b { flex: none; width: 34px; height: 34px; border-radius: 50%; color: #fff; display: flex;
+                    align-items: center; justify-content: center; font-size: 24px; margin-top: 1px }
+.plus b { background: var(--grad) } .minus b { background: #b9b6cc }
+.stars { color: var(--accent); font-size: 24px; letter-spacing: 2px }
+.ep { font-family: 'JetBrains Mono', Menlo, monospace; font-size: 16px; color: var(--accent); font-weight: 700;
+      margin-top: 10px; line-height: 1.45 }
+.stairs { display: flex; gap: 18px; align-items: flex-end; height: 100% }
+.stairs .card { padding: 22px 20px; flex: 1 }
+.stairs .num { width: 52px; height: 52px; font-size: 26px; margin-bottom: 12px }
+.stairs h3 { font-size: 25px } .stairs p { font-size: 19px }
+.err h3 { font-family: 'JetBrains Mono', Menlo, monospace; font-size: 23px; color: var(--accent) }
+.err p { font-size: 21px }
+.bars { display: flex; flex-direction: column; gap: 22px }
+.bars .b { display: grid; grid-template-columns: 300px 1fr 70px; align-items: center; gap: 18px; font-size: 25px; font-weight: 700 }
+.bars .track { height: 34px; border-radius: 20px; background: var(--soft) }
+.bars .fill { height: 100%; border-radius: 20px; background: var(--grad) }
+.bars .pts { font-size: 30px; font-weight: 800; color: var(--accent); text-align: right }
+.tl { position: relative; height: 100% }
+.tl .line { position: absolute; left: 0; right: 0; top: 118px; height: 8px; border-radius: 4px; background: var(--grad) }
+.tl .stop { position: absolute; top: 0; width: 144px; text-align: center }
+.tl .t { font-size: 25px; font-weight: 800; height: 40px }
+.tl .d { width: 30px; height: 30px; border-radius: 50%; background: #fff; border: 7px solid var(--accent);
+         margin: 60px auto 0 }
+.tl .stop.on .d { background: var(--accent) }
+.tl .w { font-size: 20px; font-weight: 700; line-height: 1.3; margin-top: 30px; color: var(--ink); padding: 0 6px }
+.tl .cp { display: inline-block; margin-top: 10px; font-size: 15px; font-weight: 800; color: var(--accent);
+          background: var(--soft); border-radius: 999px; padding: 4px 10px }
+.addr { font-family: 'JetBrains Mono', Menlo, monospace; font-size: 38px; font-weight: 700; color: var(--accent);
+        border-bottom: 4px dashed var(--accent); padding-bottom: 4px }
+</style></head><body class="t-shct"><section class="slide"><img class="logo" src="assets/logo_shct.png">
+    <img class="deco" src="assets/shape_crop.jpg" style="right:0;top:0;height:810px">
+    <div class="deco sphere" style="left:760px;top:96px;width:96px;height:96px"></div>
+    <div style="position:absolute;left:72px;top:170px;width:860px">
+      <div class="chip" style="margin-bottom:28px">Хакатон по Python · 11–17 лет</div>
+      <h1 style="font-size:84px">Свой бот<br>или приложение<br><em>за один день</em></h1>
+      <p class="lead" style="margin-top:34px;width:760px">Данные уже лежат на сервере. Твоя задача —
+      придумать программу и написать её.</p></div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Что нас <em>ждёт</em></h2><div class="body"><div class="row big"><div class="card"><div class="num">1</div><h3>Узнаем</h3><p>что такое API и как программа «разговаривает» с сервером</p></div><div class="card"><div class="num">2</div><h3>Выберем</h3><p>трек: Telegram-бот или приложение на Qt</p></div><div class="card"><div class="num">3</div><h3>Напишем</h3><p>программу на Python с данными из API</p></div><div class="card"><div class="num">4</div><h3>Покажем</h3><p>демо за 3 минуты — и награждение</p></div></div></div><div class="pagenum">2</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Что такое <em>API</em></h2><div class="body"><div class="col" style="height:100%;gap:30px">
+      <div class="row" style="height:auto;align-items:stretch">
+        <div class="card flowbox" style="flex:none;width:330px;height:260px"><div style="font-size:70px">💻</div>
+          <h3 style="margin-top:8px">Твоя программа</h3><p>бот или окно</p></div>
+        <div class="col" style="flex:1;justify-content:center;gap:34px;align-items:center">
+          <div class="col" style="gap:8px;align-items:center"><div class="msg">GET /api/movies/random_movie</div>
+            <div class="arrow" style="font-size:44px;line-height:1">запрос →</div></div>
+          <div class="col" style="gap:8px;align-items:center">
+            <div class="arrow" style="font-size:44px;line-height:1">← ответ</div>
+            <div class="msg">{"title": "Брат", "year": 1997}</div></div>
+        </div>
+        <div class="card flowbox" style="flex:none;width:330px;height:260px"><div style="font-size:70px">🗄️</div>
+          <h3 style="margin-top:8px">Сервер API</h3><p>ищет фильм у себя в базе</p></div>
+      </div>
+      <div class="card" style="flex:none;padding:22px 30px"><p><b>API</b> — способ, которым одна программа просит данные
+      у другой. Как официант в кафе: ты не идёшь на кухню, а делаешь заказ — и тебе приносят блюдо.</p></div></div></div><div class="pagenum">3</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Что есть в <em>нашем API</em></h2><div class="body"><div class="col" style="height:100%;gap:26px">
+      <div class="row" style="height:auto;gap:22px"><div class="card" style="padding:26px 24px"><div class="gnum">97</div><div style="font-size:19px;font-weight:700;color:var(--text);margin:6px 0 16px">записей</div><h3>История</h3><p style="font-size:21px">факты и правители</p></div><div class="card" style="padding:26px 24px"><div class="gnum">85</div><div style="font-size:19px;font-weight:700;color:var(--text);margin:6px 0 16px">записей</div><h3>Кулинария</h3><p style="font-size:21px">блюда и повара</p></div><div class="card" style="padding:26px 24px"><div class="gnum">106</div><div style="font-size:19px;font-weight:700;color:var(--text);margin:6px 0 16px">записей</div><h3>Кино</h3><p style="font-size:21px">фильмы, режиссёры, актёры</p></div><div class="card" style="padding:26px 24px"><div class="gnum">160</div><div style="font-size:19px;font-weight:700;color:var(--text);margin:6px 0 16px">записей</div><h3>Города</h3><p style="font-size:21px">страны, города, достопри&shy;мечательности</p></div><div class="card" style="padding:26px 24px"><div class="gnum">86</div><div style="font-size:19px;font-weight:700;color:var(--text);margin:6px 0 16px">записей</div><h3>Книги</h3><p style="font-size:21px">книги и авторы</p></div></div>
+      <p class="lead" style="font-size:28px">Всего <em>534 записи</em> и <em>85 адресов</em>.
+      У большинства записей есть картинка — для бота с фото самое то.</p></div></div><div class="pagenum">4</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Адрес — это <em>вопрос</em> серверу</h2><div class="body"><div class="col" style="height:100%;gap:44px">
+      <div class="url" style="margin-top:16px"><div class="seg"><div class="part p1">http://192.168.1.10</div><div class="lbl">где сервер</div></div><div class="seg"><div class="part p2">:8085</div><div class="lbl">порт</div></div><div class="seg"><div class="part p3">/api/movies</div><div class="lbl">блок данных</div></div><div class="seg"><div class="part p4">/random_movie</div><div class="lbl">что хотим</div></div></div>
+      <p class="lead" style="font-size:28px">Меняешь конец адреса — сервер отвечает другими данными:</p>
+      <div class="row" style="height:auto;gap:22px"><div class="card sm" style="padding:20px 24px"><div class="ep" style="margin:0 0 8px;font-size:18px">/api/historic/random_fact</div><p>случайный исторический факт</p></div><div class="card sm" style="padding:20px 24px"><div class="ep" style="margin:0 0 8px;font-size:18px">/api/cooking/dishes/by_type/Суп</div><p>все супы</p></div><div class="card sm" style="padding:20px 24px"><div class="ep" style="margin:0 0 8px;font-size:18px">/api/books/search_books?query=Пушкин</div><p>поиск книг и авторов</p></div></div></div></div><div class="pagenum">5</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Ответ приходит в <em>JSON</em></h2><div class="body"><div class="row" style="align-items:flex-start">
+      <div class="col" style="flex:none;width:720px;gap:14px"><div class="chip" style="align-self:flex-start">приходит от сервера</div>
+        <div class="code" style="font-size:21px;padding:26px 30px">{
+  <span class="n">"title"</span>: <span class="s">"Иван Васильевич меняет профессию"</span>,
+  <span class="n">"year"</span>: 1973,
+  <span class="n">"director"</span>: <span class="s">"Леонид Гайдай"</span>,
+  <span class="n">"genre"</span>: <span class="s">"Комедия"</span>,
+  <span class="n">"rating"</span>: 8.8,
+  <span class="n">"actors"</span>: [<span class="s">"Александр Демьяненко"</span>, ...],
+  <span class="n">"img_url"</span>: <span class="s">"https://..."</span>
+}</div></div>
+      <div class="col" style="flex:1;gap:14px"><div class="chip" style="align-self:flex-start">в Python это словарь</div>
+        <div class="code" style="font-size:21px;padding:26px 30px">movie = response.json()
+
+movie[<span class="s">"title"</span>]
+<span class="c"># Иван Васильевич меняет профессию</span>
+
+movie[<span class="s">"actors"</span>][<span class="n">0</span>]
+<span class="c"># Александр Демьяненко</span></div>
+        <p class="txt" style="font-size:22px">JSON — текст, похожий на словарь Python. <b>.json()</b> превращает его
+        в настоящий словарь.</p></div></div></div><div class="pagenum">6</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Первый <em>запрос</em></h2><div class="body"><div class="row"><div class="col" style="flex:none;width:880px">
+      <div class="code" style="font-size:22px"><span class="k">import</span> requests
+
+API = <span class="s">"http://192.168.1.10:8085"</span>  <span class="c"># адрес с доски</span>
+
+movie = requests.get(<span class="s">f"{API}/api/movies/random_movie"</span>).json()
+print(movie[<span class="s">"title"</span>], movie[<span class="s">"year"</span>])</div>
+      <p class="txt">Запусти — и в консоли появится случайный фильм. Запусти ещё раз — будет другой.</p></div>
+      <div class="col sm" style="flex:1;gap:18px">
+        <div class="card" style="flex:none;padding:18px 22px"><h3>/docs</h3><p>Все адреса API с кнопкой «Try it out» —
+        пробуй прямо в браузере.</p></div>
+        <div class="card" style="flex:none;padding:18px 22px"><h3>ID — строки</h3><p><span class="mono">movies["1"]</span>,
+        а не <span class="mono">movies[1]</span></p></div>
+        <div class="card" style="flex:none;padding:18px 22px"><h3>title или name</h3><p>У фильмов и книг —
+        <span class="mono">title</span>, у остальных — <span class="mono">name</span></p></div></div></div></div><div class="pagenum">7</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Трек 1: <em>Telegram-бот</em></h2><div class="body"><div class="row" style="gap:40px"><div class="tg"><div class="bar"><div class="ava">К</div><div>Кино-бот<small>бот</small></div></div>
+      <div class="chat"><div class="bub me">/movie</div>
+      <div class="bub bot"><img src="assets/movie.jpg"><div><b>Иван Васильевич меняет профессию (1973)</b><br>
+      Рейтинг: 8.8<br><br><span style="color:#55607a">Инженер Тимофеев изобретает машину времени…</span></div></div>
+      </div></div>
+      <div class="col" style="flex:1;min-width:0;gap:18px">
+        <div class="code" style="font-size:17.5px;padding:24px 26px"><span class="k">@bot.message_handler</span>(commands=[<span class="s">"movie"</span>])
+<span class="k">def</span> random_movie(message):
+    movie = requests.get(<span class="s">f"{API}/api/movies/random_movie"</span>).json()
+    text = <span class="s">f"{movie['title']} ({movie['year']})"</span>
+    <span class="k">try</span>:
+        bot.send_photo(message.chat.id, movie[<span class="s">"img_url"</span>], caption=text)
+    <span class="k">except</span> Exception:
+        bot.send_message(message.chat.id, text)  <span class="c"># нет картинки</span></div>
+        <div class="row sm" style="height:auto;gap:18px">
+          <div class="card" style="padding:16px 22px"><h3>Библиотека</h3><p><span class="mono">pip install
+          pyTelegramBotAPI</span></p></div>
+          <div class="card" style="padding:16px 22px"><h3>Токен</h3><p>Создай бота у <b>@BotFather</b> и вставь
+          токен в код</p></div></div>
+        <p class="txt" style="font-size:21px">Шаблон: <span class="mono">examples/bot_example.py</span></p></div></div></div><div class="pagenum">8</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Трек 2: <em>Qt-приложение</em></h2><div class="body"><div class="row" style="gap:40px;align-items:flex-start"><div class="win"><div class="tbar"><span class="dot" style="background:#ff5f57"></span>
+      <span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span>
+      <span style="margin-left:8px">Случайный фильм</span></div>
+      <img src="assets/qt_app.png" style="width:504px"></div>
+      <div class="col" style="flex:1;min-width:0;gap:18px">
+        <div class="code" style="font-size:16.5px;padding:24px 26px">HEADERS = {<span class="s">"User-Agent"</span>: <span class="s">"ShctHackathonApp/1.0"</span>}
+
+<span class="k">def</span> show_movie(self):
+    movie = requests.get(<span class="s">f"{API}/api/movies/random_movie"</span>).json()
+    self.text.setText(movie[<span class="s">"title"</span>])
+    <span class="hl">data = requests.get(movie[<span class="s">"img_url"</span>], headers=HEADERS).content</span>
+    pixmap = QPixmap()
+    pixmap.loadFromData(data)
+    self.picture.setPixmap(pixmap.scaledToWidth(<span class="n">300</span>))</div>
+        <div class="card sm" style="flex:none;padding:16px 22px"><h3>Не забудь headers</h3><p>Без заголовка
+        <span class="mono">User-Agent</span> половина картинок не загрузится: Wikimedia ответит ошибкой 403.</p></div>
+        <p class="txt" style="font-size:21px"><span class="mono">pip install PyQt6</span> · шаблон:
+        <span class="mono">examples/qt_example.py</span></p></div></div></div><div class="pagenum">9</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Какой трек <em>выбрать</em>?</h2><div class="body"><div class="col" style="height:100%;gap:22px"><div class="row" style="flex:1"><div class="card col" style="gap:18px"><div class="chip" style="align-self:flex-start">быстрый результат</div><h3>Telegram-бот</h3><div class="plus"><b>+</b><span>Пишешь боту с телефона, как другу</span></div><div class="plus"><b>+</b><span>Легко показать на демо и друзьям</span></div><div class="plus"><b>+</b><span>Кнопки прямо в чате</span></div><div class="minus"><b>−</b><span>Нужен токен и Telegram в сети школы</span></div></div><div class="card col" style="gap:18px"><div class="chip" style="align-self:flex-start">для любителей интерфейсов</div><h3>Qt-приложение</h3><div class="plus"><b>+</b><span>Своё окно: кнопки, списки, картинки</span></div><div class="plus"><b>+</b><span>Работает без Telegram</span></div><div class="plus"><b>+</b><span>Можно сделать красиво</span></div><div class="minus"><b>−</b><span>Картинкам нужен заголовок User-Agent</span></div></div></div>
+      <p class="txt">Данные одни и те же, и оцениваются оба трека <b>одинаково</b>. Выбирай то, что интереснее.</p></div></div><div class="pagenum">10</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Идеи <em>проектов</em></h2><div class="body"><div class="col" style="gap:30px"><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px">
+      <div class="card sm" style="padding:22px 24px;min-height:200px"><div style="display:flex;justify-content:space-between;align-items:baseline"><h3>Кино-рулетка</h3><span class="stars">★</span></div><p>Случайный фильм с постером</p><div class="ep">/random_movie</div></div><div class="card sm" style="padding:22px 24px;min-height:200px"><div style="display:flex;justify-content:space-between;align-items:baseline"><h3>Факт дня</h3><span class="stars">★</span></div><p>Исторический факт по команде</p><div class="ep">/random_fact</div></div><div class="card sm" style="padding:22px 24px;min-height:200px"><div style="display:flex;justify-content:space-between;align-items:baseline"><h3>Что приготовить?</h3><span class="stars">★★</span></div><p>Блюда до 20 минут или по типу</p><div class="ep">/dishes/quick<br>/dishes/by_type/Суп</div></div><div class="card sm" style="padding:22px 24px;min-height:200px"><div style="display:flex;justify-content:space-between;align-items:baseline"><h3>Угадай год</h3><span class="stars">★★</span></div><p>Викторина: 4 варианта ответа</p><div class="ep">/random_movie<br>/titles_of_all_movies</div></div><div class="card sm" style="padding:22px 24px;min-height:200px"><div style="display:flex;justify-content:space-between;align-items:baseline"><h3>Путеводитель</h3><span class="stars">★★★</span></div><p>Страна → города → места</p><div class="ep">/cities_by_country/…<br>/landmarks_by_city/…</div></div><div class="card sm" style="padding:22px 24px;min-height:200px"><div style="display:flex;justify-content:space-between;align-items:baseline"><h3>Викторина на время</h3><span class="stars">★★★</span></div><p>Таймер и таблица рекордов</p><div class="ep">любые random_*</div></div></div><p class="txt">★ — справится новичок, ★★★ — для опытных. Можно придумать своё: главное, чтобы
+      программа брала данные из API.</p></div></div><div class="pagenum">11</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Уровни <em>прокачки</em></h2><div class="body"><div class="stairs"><div class="card" style="height:210px"><div class="num">1</div><h3>Данные</h3><p>Покажи запись из API текстом</p></div><div class="card" style="height:266px"><div class="num">2</div><h3>Картинка</h3><p>Добавь фото из img_url</p></div><div class="card" style="height:322px"><div class="num">3</div><h3>Кнопки</h3><p>Меню или кнопки вместо команд</p></div><div class="card" style="height:378px"><div class="num">4</div><h3>Ввод</h3><p>Фильтр или поиск по запросу пользователя</p></div><div class="card" style="height:434px"><div class="num">5</div><h3>Надёжность</h3><p>Не падает на 404 и пустой картинке</p></div><div class="card" style="height:490px"><div class="num">6</div><h3>Своя фишка</h3><p>Очки, избранное, таймер — то, чего нет в API</p></div></div></div><div class="pagenum">12</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Частые <em>ошибки</em></h2><div class="body"><div class="col" style="gap:30px"><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px">
+      <div class="card err" style="padding:22px 24px;min-height:150px"><h3>ConnectionError</h3><p>Проверь адрес: не <b>localhost</b>, а адрес с доски. Открой /ping в браузере.</p></div><div class="card err" style="padding:22px 24px;min-height:150px"><h3>KeyError: 1</h3><p>ID — строки: <span class='mono'>movies["1"]</span></p></div><div class="card err" style="padding:22px 24px;min-height:150px"><h3>KeyError: 'name'</h3><p>У фильмов и книг поле называется <span class='mono'>title</span></p></div><div class="card err" style="padding:22px 24px;min-height:150px"><h3>404 Not Found</h3><p>Такого нет. Посмотри в <b>/docs</b>, какие значения бывают.</p></div><div class="card err" style="padding:22px 24px;min-height:150px"><h3>Бот упал на send_photo</h3><p>Не у всех записей есть картинка — оберни в <b>try/except</b>.</p></div><div class="card err" style="padding:22px 24px;min-height:150px"><h3>Нет картинки в Qt</h3><p>Добавь <span class='mono'>headers=HEADERS</span> в requests.get</p></div></div><div class="card" style="flex:none;padding:20px 28px"><p><b>Первым делом</b> открой тот же адрес
+      в браузере. Видишь JSON — сервер в порядке, ищи ошибку в коде.</p></div></div></div><div class="pagenum">13</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Как <em>оценим</em></h2><div class="body"><div class="row"><div class="col" style="flex:1.3;justify-content:center"><div class="bars"><div class="b"><span>Работает</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="pts">30</span></div><div class="b"><span>Использование API</span><div class="track"><div class="fill" style="width:67%"></div></div><span class="pts">20</span></div><div class="b"><span>Удобство</span><div class="track"><div class="fill" style="width:67%"></div></div><span class="pts">20</span></div><div class="b"><span>Идея и фишка</span><div class="track"><div class="fill" style="width:50%"></div></div><span class="pts">15</span></div><div class="b"><span>Презентация</span><div class="track"><div class="fill" style="width:50%"></div></div><span class="pts">15</span></div></div>
+      <p class="txt" style="margin-top:6px">Всего 100 баллов от каждого члена жюри.</p></div>
+      <div class="col" style="flex:1;justify-content:center"><div class="card" style="flex:none"><h3>Демо — 3 минуты</h3><p><b>1.</b> Что за проект и для кого<br>
+      <b>2.</b> Покажи вживую<br><b>3.</b> Чем гордишься больше всего</p></div>
+      <div class="card" style="flex:none;padding:20px 26px"><h3 style="font-size:26px">Номинации</h3><p style="font-size:21px">
+      Самый полезный · Самый смешной · Лучший интерфейс · Лучший первый проект</p></div></div></div></div><div class="pagenum">14</div></section><section class="slide "><img class="logo" src="assets/logo_shct.png"><div class="deco sphere" style="right:70px;top:46px;width:54px;height:54px"></div><h2>Как пройдёт <em>день</em></h2><div class="body"><div class="col" style="height:100%;gap:40px;padding-top:30px">
+      <div class="tl" style="height:290px"><div class="line" style="left:72px;right:72px"></div><div class="stop" style="left:0px"><div class="t">10:00</div><div class="d"></div><div class="w">Открытие</div></div><div class="stop" style="left:144px"><div class="t">10:20</div><div class="d"></div><div class="w">Первый запрос</div></div><div class="stop" style="left:288px"><div class="t">10:40</div><div class="d"></div><div class="w">Команды и идеи</div></div><div class="stop on" style="left:432px"><div class="t">11:00</div><div class="d"></div><div class="w">Работа</div><div class=cp>чекпоинт 12:00</div></div><div class="stop" style="left:576px"><div class="t">13:00</div><div class="d"></div><div class="w">Обед</div></div><div class="stop on" style="left:720px"><div class="t">13:40</div><div class="d"></div><div class="w">Работа</div><div class=cp>чекпоинт 14:30</div></div><div class="stop" style="left:864px"><div class="t">15:30</div><div class="d"></div><div class="w">Стоп-код</div></div><div class="stop" style="left:1008px"><div class="t">15:45</div><div class="d"></div><div class="w">Демо</div></div><div class="stop" style="left:1152px"><div class="t">16:45</div><div class="d"></div><div class="w">Награждение</div></div></div>
+      <div class="card" style="flex:none;padding:20px 28px"><p>На чекпоинтах ментор подходит к каждой команде.
+      Цель к <b>12:00</b> — программа показывает данные из API. К <b>14:30</b> — есть кнопки или фильтр.</p></div></div></div><div class="pagenum">15</div></section><section class="slide grad"><img class="logo" src="assets/logo_shct_white.png"><h2>Время <em>писать код</em></h2><div class="body"><div class="row" style="align-items:center"><div class="col" style="flex:1;gap:30px">
+      <h1 style="font-size:110px">Погнали!</h1>
+      <p class="lead" style="color:#fff">Открой браузер и проверь, что сервер отвечает.</p></div>
+      <div class="card col" style="flex:1.25;gap:20px;padding:36px 40px">
+        <p style="font-size:24px;font-weight:700">Адрес сервера</p>
+        <div style="white-space:nowrap"><span class="addr">http://<span style="display:inline-block;width:250px"></span>:8085</span></div>
+        <p style="font-size:24px;margin-top:10px"><b class="mono">/ping</b> — проверка, ответ <span class="mono">"PONG!"</span><br>
+        <b class="mono">/docs</b> — все адреса API<br><b class="mono">examples/</b> — шаблоны бота и Qt</p></div></div></div><div class="pagenum">16</div></section></body></html>

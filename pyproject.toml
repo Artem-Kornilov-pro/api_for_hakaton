@@ -14,6 +14,7 @@ exclude = [
     "__pycache__",
     "node_modules",
     ".mypy_cache",
+    "presentation",
 ]
 
 # Разрешаем Ruff автоматически исправлять всё, что можно
@@ -29,6 +30,10 @@ select = ["E", "F", "I", "W"]
 
 # Разрешённые автофиксируемые классы
 fixable = ["ALL"]
+
+[tool.ruff.lint.per-file-ignores]
+# В базах данных длинные строки — это тексты описаний и ссылки, а не код
+"data/*" = ["E501"]
 
 [tool.ruff.format]
 quote-style = "double"

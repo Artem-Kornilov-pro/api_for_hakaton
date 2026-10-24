@@ -9,8 +9,15 @@ __pycache__
 .idea
 .vscode
 venv
+.venv
 env
 ENV
+.mypy_cache
+.ruff_cache
+.claude
+docs
+examples
+presentation
 logs
 *.log
 Dockerfile

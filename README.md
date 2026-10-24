@@ -23,6 +23,7 @@ API разделено на несколько логических блоков
 *   `/names_of_rulers` — имена всех правителей
 *   `/random_ruler` — случайный правитель
 *   `/rulers/{id}` — правитель по ID
+*   `/rulers/dynasty/{dynasty}` — правители династии (Рюриковичи, Романовы...)
 *   `/stats` — статистика по базе
 
 ### 2. Кулинария (`/api/cooking`)
@@ -31,12 +32,16 @@ API разделено на несколько логических блоков
 *   `/names_of_all_chefs` — имена всех шеф-поваров
 *   `/random_chef` — случайный шеф-повар
 *   `/chef/{id}` — повар по ID
+*   `/chef/born_after/{year}` — повара, родившиеся после года
+*   `/chef/by_restaurant/{restaurant}` — повара ресторана
 *   `/all_dishes` — все блюда
 *   `/names_of_all_dishes` — названия всех блюд
 *   `/random_dish` — случайное блюдо
 *   `/dish/{id}` — блюдо по ID
 *   `/dishes/by_country/{country}` — блюда страны
 *   `/dishes/by_type/{type}` — блюда по типу (суп, салат, десерт...)
+*   `/dishes/calories?min_calories=&max_calories=` — блюда в диапазоне калорий
+*   `/dishes/quick?max_minutes=30` — быстрые блюда
 *   `/food_info` — справочник стран и типов блюд
 
 ### 3. Кино (`/api/movies`)
@@ -51,9 +56,15 @@ API разделено на несколько логических блоков
 *   `/all_directors` — все режиссёры
 *   `/names_of_all_directors` — имена всех режиссёров
 *   `/random_director` — случайный режиссёр
+*   `/director/{id}` — режиссёр по ID
+*   `/director_by_name/{name}` — поиск режиссёра по имени
 *   `/all_actors` — все актёры
 *   `/names_of_all_actors` — имена всех актёров
 *   `/random_actor` — случайный актёр
+*   `/actor/{id}` — актёр по ID
+*   `/actor_by_name/{name}` — поиск актёра по имени
+*   `/search?query=` — поиск по фильмам, режиссёрам и актёрам
+*   `/movies_stats` — статистика по базе
 
 ### 4. Города и достопримечательности (`/api/cities`)
 Города мира, их история и главные достопримечательности.
@@ -61,17 +72,23 @@ API разделено на несколько логических блоков
 *   `/names_of_all_countries` — названия всех стран
 *   `/random_country` — случайная страна
 *   `/country/{id}` — страна по ID
+*   `/country_by_name/{name}` — страна по названию
+*   `/countries_by_continent/{continent}` — страны континента
 *   `/all_cities` — все города
 *   `/names_of_all_cities` — названия всех городов
 *   `/random_city` — случайный город
 *   `/city/{id}` — город по ID
+*   `/city_by_name/{name}` — город по названию
 *   `/cities_by_country/{country}` — города страны
 *   `/all_landmarks` — все достопримечательности
 *   `/names_of_all_landmarks` — названия всех достопримечательностей
 *   `/random_landmark` — случайная достопримечательность
 *   `/landmark/{id}` — достопримечательность по ID
 *   `/landmarks_by_city/{city}` — достопримечательности города
+*   `/landmarks_by_country/{country}` — достопримечательности страны
 *   `/landmarks_by_type/{type}` — достопримечательности по типу
+*   `/search?query=` — поиск по странам, городам и достопримечательностям
+*   `/cities_stats` — статистика по базе
 
 ### 5. Книги и авторы (`/api/books`)
 Классическая и детская литература.
@@ -79,14 +96,20 @@ API разделено на несколько логических блоков
 *   `/names_of_all_authors` — имена всех авторов
 *   `/random_author` — случайный автор
 *   `/author/{id}` — автор по ID
+*   `/author_by_name/{name}` — поиск автора по имени
 *   `/authors_by_country/{country}` — авторы страны
+*   `/authors_by_genre/{genre}` — авторы жанра
 *   `/all_books` — все книги
 *   `/titles_of_all_books` — названия всех книг
 *   `/random_book` — случайная книга
 *   `/book/{id}` — книга по ID
+*   `/book_by_title/{title}` — поиск книги по названию
 *   `/books_by_author/{author}` — книги автора
 *   `/books_by_genre/{genre}` — книги по жанру
+*   `/books_by_year/{year}` — книги года
+*   `/short_books?max_pages=150` — короткие книги
 *   `/search_books?query=` — поиск по книгам и авторам
+*   `/books_stats` — статистика по базе
 
 ## 🛠 Запуск проекта (для организаторов)
 
@@ -100,5 +123,29 @@ cd api_for_hakaton
 
 ### 2. Запуск контейнеров
 ```bash
-docker-compose up --build -d
+docker compose up --build -d   # или: make docker-up
 ```
+
+### 3. Проверка
+*   `http://<адрес-сервера>:8085/ping` — должно вернуть `"PONG!"`
+*   `http://<адрес-сервера>:8085/docs` — интерактивная документация со всеми эндпоинтами
+
+### Без Docker
+```bash
+make install   # создаст .venv и поставит зависимости (нужен Python 3.14)
+make run       # запустит API на порту 8085
+```
+
+## 👩‍💻 Для участников
+
+```python
+import requests
+
+API = "http://<адрес-сервера>:8085"
+movie = requests.get(f"{API}/api/movies/random_movie").json()
+print(movie["title"], movie["year"])
+```
+
+Готовые стартовые шаблоны Telegram-бота и Qt-приложения — в папке [`examples/`](examples/).
+Материалы для преподавателя — в папке [`docs/`](docs/): конспект и план хакатона.
+Презентация для открытия хакатона — [`presentation/presentation_hackathon.pdf`](presentation/presentation_hackathon.pdf).
